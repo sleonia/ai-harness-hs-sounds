@@ -9,9 +9,13 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write \"src/**/*.{astro,js,ts,css,scss,json,md}\""
   },
   "dependencies": {
     "astro": "^6.1.9"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
   }
 }

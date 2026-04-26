@@ -1,9 +1,9 @@
 ---
-import type { Card } from '../data/cards';
+import type { Card } from "../data/cards";
 
 interface Props {
   card: Card;
-  'data-set'?: string;
+  "data-set"?: string;
 }
 
 const { card, ...props } = Astro.props;
@@ -15,35 +15,39 @@ const hasImage = card.image.length > 0;
   <div class="content">
     <a
       class="card-link"
-      href={hasSource ? card.source : '#'}
+      href={hasSource ? card.source : "#"}
       aria-disabled={!hasSource || undefined}
     >
       <div class="art">
-        {hasImage ? (
-          <img src={card.image} alt={card.title} loading="lazy" />
-        ) : (
-          <div class="art-placeholder">No image</div>
-        )}
+        {
+          hasImage ? (
+            <img src={card.image} alt={card.title} loading="lazy" />
+          ) : (
+            <div class="art-placeholder">No image</div>
+          )
+        }
       </div>
       <div class="meta">
-        <div class="set">{card.set}</div>
         <h2 class="title">{card.title}</h2>
       </div>
     </a>
     <div class="actions">
-      {card.audios.map((clip) => (
-        <button
-          class="button"
-          type="button"
-          data-state="idle"
-          data-label={clip.label}
-          data-path={clip.path}
-          data-title={card.title}
-          aria-pressed="false"
-        >
-          {clip.label}
-        </button>
-      ))}
+      {
+        card.audios.map((clip) => (
+          <button
+            class="button"
+            type="button"
+            data-state="idle"
+            data-label={clip.label}
+            data-path={clip.path}
+            data-title={card.title}
+            aria-pressed="false"
+            aria-label={`Play audio: ${card.title} - ${clip.label}`}
+          >
+            <img src="/images/play-button.png" alt="" class="play-icon" />
+          </button>
+        ))
+      }
     </div>
   </div>
 </article>
@@ -52,51 +56,53 @@ const hasImage = card.image.length > 0;
   .card {
     display: grid;
     grid-template-rows: auto 1fr;
-    background: linear-gradient(180deg, rgba(30, 42, 76, 0.96), rgba(11, 17, 33, 0.96));
-    border: 1px solid var(--panel-border);
-    border-radius: 22px;
+    background: transparent;
+    border: 1px solid var(--hs-border-subtle);
+    border-radius: 20px;
     overflow: hidden;
-    box-shadow: var(--shadow);
+    box-shadow: var(--hs-shadow);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+    border-color: var(--hs-border-strong);
   }
 
   .card:focus-within {
-    outline: 3px solid var(--focus);
+    outline: 3px solid var(--hs-gold-primary);
     outline-offset: 4px;
   }
 
   .content {
     display: grid;
-    gap: 0.9rem;
-    padding: 1rem;
+    gap: 1rem;
   }
 
   .card-link {
     display: grid;
-    gap: 0.9rem;
+    gap: 1rem;
     color: inherit;
     text-decoration: none;
   }
 
-  .card-link[aria-disabled='true'] {
+  .card-link[aria-disabled="true"] {
     cursor: default;
   }
 
   .card-link:focus-visible {
-    outline: 3px solid var(--focus);
+    outline: 2px solid var(--hs-gold-primary);
     outline-offset: 2px;
-  }
-
-  .card-link:hover .title {
-    color: var(--accent);
-  }
-
-  .card-link:hover .art img {
-    transform: translateY(-1px);
   }
 
   .art {
     aspect-ratio: 375 / 518;
-    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
   }
 
   .art img {
@@ -104,6 +110,7 @@ const hasImage = card.image.length > 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.4s ease;
   }
 
   .art-placeholder {
@@ -111,66 +118,104 @@ const hasImage = card.image.length > 0;
     place-items: center;
     width: 100%;
     height: 100%;
-    color: var(--muted);
-    font-size: 0.95rem;
+    color: var(--hs-text-secondary);
+    font-size: 0.9rem;
   }
 
   .meta {
     display: grid;
-    gap: 0.35rem;
-  }
-
-  .set {
-    color: var(--accent);
-    font-size: 0.8rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    padding: 0 1rem;
+    gap: 0.5rem;
   }
 
   .title {
     margin: 0;
-    font-size: 1.25rem;
-    line-height: 1.15;
+    font-size: 1.35rem;
+    line-height: 1.2;
+    color: var(--hs-text-primary);
+    transition: color 0.3s ease;
   }
 
   .actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.7rem;
-    margin-top: auto;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
   }
 
   .button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 2.8rem;
-    padding: 0.8rem 1rem;
-    border-radius: 999px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    flex: 1 1 auto;
+    width: 3.5rem;
+    height: 3.5rem;
+    min-height: 3.5rem;
+    padding: 0;
+    border-style: none;
+    border-radius: 50%;
+    flex: 0 0 auto;
     cursor: pointer;
-    color: #1b1730;
-    background: linear-gradient(180deg, #ffd772 0%, #f0a43b 100%);
-    font: inherit;
+    background: transparent;
+    transition: all 0.3s ease;
   }
 
-  .button[data-state='playing'] {
+  .play-icon {
+    width: 80%;
+    object-fit: contain;
+    pointer-events: none;
+  }
+
+  .button:active {
+    transform: translateY(0) scale(0.95);
+  }
+
+  .button[data-state="playing"] {
     background: linear-gradient(180deg, #9ad9ff 0%, #5bb6ff 100%);
+    border-color: rgba(155, 217, 255, 0.5);
+    box-shadow: 0 6px 20px rgba(155, 217, 255, 0.4);
   }
 
-  .button:hover {
-    color: var(--accent);
+  .button[data-state="playing"]:hover {
+    box-shadow: 0 8px 24px rgba(155, 217, 255, 0.5);
   }
 
   .button:focus-visible {
-    outline: 3px solid var(--focus);
+    outline: 3px solid var(--hs-gold-primary);
     outline-offset: 2px;
   }
 
   @media (max-width: 640px) {
+    .card {
+      border-radius: 16px;
+    }
+
+    .content {
+      gap: 0.8rem;
+    }
+
+    .art {
+      border-radius: 10px;
+    }
+
+    .title {
+      font-size: 1.2rem;
+    }
+
     .actions {
-      flex-direction: column;
+      flex-direction: row;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+
+    .button {
+      width: 3rem;
+      height: 3rem;
+      min-height: 3rem;
+    }
+
+    .play-icon {
+      width: 1.75rem;
+      height: 1.75rem;
     }
   }
 </style>

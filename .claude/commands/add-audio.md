@@ -1,22 +1,36 @@
 ---
-description: Add or update a card entry in meta.json from local .wav files
+description: Add or bulk-sync audio entries in meta.json from soundpack, then enrich image/card URLs
 allowed-tools: Bash
 ---
 
 # /add-audio
 
-Add a new card entry or update an existing one in `meta.json` using `scripts/add-audio.mts`.
+Maintain `meta.json` from local `soundpack/**/*.wav` files.
 
-## Expected Input
+This command supports:
 
-Collect these fields from the user prompt:
+- single-card upsert
+- bulk sync from filesystem
+- metadata enrichment (`imageUrl`, `blizzardUrl`)
+- validation
 
-- `pack` (required): target key under top-level `packs`
-- `title` (required): display card title
-- `blizzardUrl` (required): must contain `/ru-ru/`
-- `imageUrl` (required): direct Blizzard image URL
-- `fsPath` (required): repository-relative card directory path
-- `audios` (required): one or more repository-relative `.wav` paths
+## Modes
+
+## 1) Single Card Upsert
+
+Use this when user provides explicit fields.
+
+Required:
+
+- `pack`
+- `title`
+- `fsPath`
+- `audios` (at least one `.wav`)
+
+Optional but preferred:
+
+- `blizzardUrl` (`https://hearthstone.blizzard.com/ru-ru/cards/<id>`)
+- `imageUrl`
 
 Example:
 
@@ -32,28 +46,7 @@ audios:
 - soundpack/[2015.08.24] Большой турнир/Серебряный дозорный/VO_AT_109_ATTACK_02.wav
 ```
 
-## Workflow
-
-1. Validate required fields and fail fast if any field is missing.
-2. Validate `blizzardUrl` contains `/ru-ru/`.
-3. Confirm each `audios` path exists and ends with `.wav`; reject missing paths.
-4. Run `node scripts/add-audio.mts` with:
-   - `--pack`
-   - `--title`
-   - `--blizzard-url`
-   - `--image-url`
-   - `--fs-path`
-   - one `--audio` flag per audio file
-5. Let the script upsert by `title` or `fsPath`:
-   - existing entry: merge audio list and update metadata fields
-   - missing entry: create card record in the target pack
-6. Return a short summary:
-   - action (`created` or `updated`)
-   - pack name
-   - card title
-   - number of audio files now attached
-
-## Command Template
+Run:
 
 ```bash
 node scripts/add-audio.mts \
@@ -66,9 +59,75 @@ node scripts/add-audio.mts \
   --audio "<repo-relative wav #2>"
 ```
 
+Rules:
+
+- validate every audio path exists and ends with `.wav`
+- keep all paths repository-relative
+- merge by `title` or `fsPath`
+- dedupe `audios`
+
+## 2) Bulk Sync From soundpack
+
+Use this when user asks to add all files from `soundpack/`.
+
+Workflow:
+
+1. Read all `soundpack/**/*.wav`.
+2. Group by entry path:
+   - default card path: `soundpack/<topDir>/<cardDir>`
+   - special case direct files under pack root: `soundpack/<topDir>/<file.wav>` -> entry `fsPath = soundpack/<topDir>`
+3. Map `topDir` to display pack name:
+   - if already known in `meta.json`, reuse that pack key
+   - else strip date prefix from `[yyyy.mm.dd] Name` -> `Name`
+4. Upsert entries:
+   - preserve existing `title`, `blizzardUrl`, `imageUrl` when present
+   - create missing entries with empty `blizzardUrl`/`imageUrl`
+5. Ensure every local `.wav` is referenced exactly once in `meta.json` entries.
+
+## 3) Enrich imageUrl Automatically
+
+If `imageUrl` is missing:
+
+1. Derive card ID from first audio filename (without `.wav`) using patterns like:
+   - `VO_GVG_084_Play_01` -> `GVG_084`
+   - `SFX_GVG_064_EnterPlay` -> `GVG_064`
+   - `VO_NAX15_01_RESPOND...` -> `NAX15_01`
+   - `VO_BG21_017_...` -> `BG21_017`
+2. Build image URL:
+   - `https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/<CARD_ID>.png`
+3. Validate URL returns HTTP `200` before saving.
+
+## 4) Enrich blizzardUrl Automatically
+
+If `blizzardUrl` is missing:
+
+1. Derive `<CARD_ID>` from audio (same logic as above).
+2. Fetch `https://api.hearthstonejson.com/v1/latest/ruRU/cards.json`.
+3. Find card by `id === <CARD_ID>`, get `dbfId`.
+4. Set:
+   - `blizzardUrl = https://hearthstone.blizzard.com/ru-ru/cards/<dbfId>`
+5. Validate URL is reachable (`200` or redirect to valid card page).
+6. If unresolved, keep blank and report title + card ID for manual fix.
+
+## 5) Required Validation Before Finish
+
+Run all checks:
+
+- coverage:
+  - all `soundpack/**/*.wav` exist in `meta.json` audio refs
+  - all `meta.json` audio refs exist on disk
+- schema:
+  - root object with top-level `packs`
+  - each card has `title`, `blizzardUrl`, `imageUrl`, `fsPath`, `audios[]`
+- urls:
+  - all non-empty `imageUrl` and `blizzardUrl` pass HTTP check
+
+If any check fails, do not finalize; fix and re-run.
+
 ## Constraints
 
 - Keep all paths repository-relative.
 - Do not rename files or directories.
-- Do not regenerate unrelated files.
+- Do not modify `soundpack/` while syncing metadata.
+- Regenerate `site/index.html` only when user asks.
 - Keep `meta.json` as an object with top-level `packs`.

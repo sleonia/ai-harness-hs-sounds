@@ -1,12 +1,12 @@
-const status = document.getElementById('status') as HTMLElement | null;
+const status = document.getElementById("status") as HTMLElement | null;
 
 let currentAudio: HTMLAudioElement | null = null;
 let currentButton: HTMLButtonElement | null = null;
 
-function setButtonState(button: HTMLButtonElement, state: 'idle' | 'playing') {
+function setButtonState(button: HTMLButtonElement, state: "idle" | "playing") {
   button.dataset.state = state;
-  button.setAttribute('aria-pressed', state === 'playing' ? 'true' : 'false');
-  button.textContent = state === 'playing' ? 'Pause' : button.dataset.label;
+  button.setAttribute("aria-pressed", state === "playing" ? "true" : "false");
+  button.textContent = state === "playing" ? "Pause" : button.dataset.label;
 }
 
 function resetCurrent() {
@@ -15,7 +15,7 @@ function resetCurrent() {
     currentAudio.currentTime = 0;
   }
   if (currentButton) {
-    setButtonState(currentButton, 'idle');
+    setButtonState(currentButton, "idle");
   }
   currentAudio = null;
   currentButton = null;
@@ -37,17 +37,17 @@ function playCard(button: HTMLButtonElement) {
   const audio = new Audio(clipPath);
   currentAudio = audio;
   currentButton = button;
-  setButtonState(button, 'playing');
+  setButtonState(button, "playing");
   status!.textContent = `Playing: ${title} (${label})`;
 
-  audio.addEventListener('ended', () => {
+  audio.addEventListener("ended", () => {
     if (currentButton === button) {
       resetCurrent();
       status!.textContent = `Finished: ${title} (${label})`;
     }
   });
 
-  audio.addEventListener('error', () => {
+  audio.addEventListener("error", () => {
     if (currentButton === button) {
       resetCurrent();
       status!.textContent = `Could not load audio: ${title} (${label})`;
@@ -60,8 +60,10 @@ function playCard(button: HTMLButtonElement) {
   });
 }
 
-document.addEventListener('click', (e) => {
-  const button = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-path]');
+document.addEventListener("click", (e) => {
+  const button = (e.target as HTMLElement).closest<HTMLButtonElement>(
+    "button[data-path]",
+  );
   if (button) {
     e.preventDefault();
     playCard(button);
@@ -69,8 +71,10 @@ document.addEventListener('click', (e) => {
 });
 
 // Prevent navigation on aria-disabled links
-document.addEventListener('click', (e) => {
-  const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[aria-disabled="true"]');
+document.addEventListener("click", (e) => {
+  const link = (e.target as HTMLElement).closest<HTMLAnchorElement>(
+    'a[aria-disabled="true"]',
+  );
   if (link) {
     e.preventDefault();
   }
