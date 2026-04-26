@@ -680,8 +680,8 @@
       },
       {
         "title": "Король-лич (карта)",
-        "blizzardUrl": "",
-        "imageUrl": "",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42818-the-lich-king",
+        "imageUrl": "/cards/the-lich-king.png",
         "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)",
         "audios": [
           "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)/VO_ICC_239_Male_Human_Attack_03.wav"
@@ -710,28 +710,22 @@
     "Книга Героев": [
       {
         "title": "Джайна",
-        "blizzardUrl": "",
-        "imageUrl": "/heroes/jaina.avif",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/heroes/mage",
+        "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/bltc965041283bac56c/blt7bcb414d2e0e9fb8/5e4441b1af702f08b6a32821/Alt-Heroes_Mage_Jaina.png",
         "fsPath": "soundpack/Книга Героев/Джайна",
         "audios": [
-          "soundpack/Книга Героев/Джайна/Шандриса Оперенная Луна/VO_Story_Minion_Shandris_Female_NightElf_Attack_01.wav",
-          "soundpack/Книга Героев/Джайна/Шандриса Оперенная Луна/VO_Story_Minion_Shandris_Female_NightElf_Play_01.wav",
           "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Concede_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Full_Minions_01.wav",
           "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Generic_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Hand_Full_01.wav",
           "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Oops_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Thanks_01.wav",
           "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Time_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_WellPlayed_01.wav",
           "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Wow_01.wav",
           "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Human_Female_Story_Jaina_Threaten_01.wav"
         ]
       },
       {
         "title": "Рексар",
-        "blizzardUrl": "",
-        "imageUrl": "/heroes/hunter.avif",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/heroes/hunter",
+        "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/bltc965041283bac56c/bltacbbadff2af4490b/5e44413acc8de70b69efa73f/Alt-Heroes_Hunter_Rexxar.png",
         "fsPath": "soundpack/Книга Героев/Рексар",
         "audios": [
           "soundpack/Книга Героев/Рексар/VO_Story_Hero_Rexxar_Male_Orc-Ogre_Story_Rexxar_Attack_01.wav"
@@ -742,7 +736,7 @@
       {
         "title": "Разное",
         "blizzardUrl": "",
-        "imageUrl": "",
+        "imageUrl": "https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/cardgallery_empty_keyart-087e770b5f99c63fe84ae21c0c412d1b9c91c86ecd8f7635d7e1ec895b1f3f2eebc20fe12192522b2d991b34393b169e8c6780f0cc88387be0397ca75099e786.png",
         "fsPath": "soundpack/Разное",
         "audios": ["soundpack/Разное/VO_JobsDone.wav"]
       }
@@ -751,7 +745,7 @@
       {
         "title": "Хозяин таверны",
         "blizzardUrl": "",
-        "imageUrl": "/ui/innkeeper.webp",
+        "imageUrl": "/innkeeper.webp",
         "fsPath": "soundpack/Хозяин таверны",
         "audios": [
           "soundpack/Хозяин таверны/VO_ANNOUNCER_LEGENDARY_25.wav",
