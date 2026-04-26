@@ -24,10 +24,10 @@ const { cardCount, clipCount } = Astro.props;
     padding: 2rem;
     background: linear-gradient(
       135deg,
-      rgba(26, 26, 26, 0.6),
+      rgba(35, 58, 110, 0.15),
       rgba(15, 15, 15, 0.8)
     );
-    border: 1px solid var(--hs-border-subtle);
+    border: 1px solid rgba(35, 58, 110, 0.2);
     border-radius: 20px;
     box-shadow: var(--hs-shadow);
   }
@@ -50,14 +50,17 @@ const { cardCount, clipCount } = Astro.props;
     line-height: 0.95;
     color: var(--hs-gold-primary);
     font-family: var(--hs-font-heading);
-    text-shadow: 0 4px 12px rgba(255, 203, 103, 0.15);
+    font-weight: 700;
+    text-shadow: 0 4px 12px rgba(252, 209, 68, 0.15);
   }
 
   .intro {
     max-width: 62ch;
     margin: 0;
     color: var(--hs-text-secondary);
+    font-family: var(--hs-font-accent);
     font-size: 1.1rem;
+    font-weight: 400;
     line-height: 1.6;
   }
 

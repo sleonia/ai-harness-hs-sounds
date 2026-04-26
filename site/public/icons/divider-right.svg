@@ -1,0 +1,14 @@
+<svg viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Right Start - Geometric Corner -->
+  <path d="M10 15C10 15 13 18 15 20C17 22 20 24 23 24C26 24 29 22 31 20C33 18 35 15 37 15C39 15 41 18 39 22C37 26 33 30 29 32C25 34 20 34 17 32C14 30 12 26 10 24" fill="#8B7355" opacity="0.4"/>
+  <path d="M13 17C13 17 15 19 17 21C19 23 22 24 24 24C26 24 28 23 30 21C32 19 34 17 35 17C36 17 37 19 36 22C35 25 32 28 29 30C26 32 22 32 20 30C18 28 16 25 14 24" fill="#8B7355" opacity="0.3"/>
+
+  <!-- Right Middle - Horizontal Bar -->
+  <rect x="40" y="18" width="40" height="12" fill="#8B7355" opacity="0.4"/>
+  <line x1="40" y1="24" x2="80" y2="24" stroke="white" stroke-width="1"/>
+
+  <!-- Right End - Decorative Cursive 'a' -->
+  <path d="M90 30C90 30 88 28 88 25C88 22 90 20 93 18C96 16 100 15 103 15C106 15 108 16 108 18C108 20 106 22 104 24C102 26 100 28 98 30C96 32 94 34 92 36C90 38 88 38 87 36" stroke="#8B7355" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M95 20C95 20 94 18 95 16C96 14 98 13 100 13C102 13 104 14 105 16C106 18 106 20 105 22" stroke="#8B7355" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M98 18C98 18 97 17 98 15C99 13 100 13 101 13C102 13 103 14 103 15" stroke="#8B7355" stroke-width="1" stroke-linecap="round" fill="none"/>
+</svg>

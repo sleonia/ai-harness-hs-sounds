@@ -8,5 +8,6 @@ Tested only on MacOS other platforms are not tested, but PRs are welcome.
 
 - [Great Hearthstone Sound Pack](https://eu.forums.blizzard.com/ru/hearthstone/t/%D1%84%D0%B0%D0%B9%D0%BB%D1%8B-%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2-%D0%BA%D0%B0%D1%80%D1%82-%D0%B8%D0%B7-hearthstone/39)
 - [Hearthstone JSON scripts pack](https://github.com/Zero-to-Heroes/HearthstoneJSON/tree/master)
+- [Oficial site with cards](https://hearthstone.blizzard.com/ru-ru/cards)
 
 I also took inspiration from this repo: https://github.com/newink/claudecode-sounds/tree/main

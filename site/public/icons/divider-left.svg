@@ -1,0 +1,14 @@
+<svg viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Start - Decorative Swirl -->
+  <path d="M10 40C10 40 5 35 5 28C5 20 10 15 15 12C20 9 25 8 25 8C25 8 20 10 16 14C12 18 10 22 10 28C10 34 15 40 15 40" stroke="#8B7355" stroke-width="2" stroke-linecap="round"/>
+  <path d="M8 38C8 38 3 33 3 25C3 18 8 13 13 10C18 7 25 6 25 6C25 6 20 8 15 12C10 16 8 20 8 25C8 32 13 38 13 38" stroke="#8B7355" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M6 36C6 36 2 31 2 24C2 17 7 12 12 9C16 6 22 5 22 5C22 5 17 7 13 11C9 15 6 19 6 24C6 30 11 36 11 36" stroke="#8B7355" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Left Middle - Horizontal Bar -->
+  <rect x="30" y="18" width="40" height="12" fill="#8B7355" opacity="0.4"/>
+  <line x1="30" y1="24" x2="70" y2="24" stroke="white" stroke-width="1"/>
+
+  <!-- Left End - Geometric Element -->
+  <path d="M75 15C75 15 78 18 80 20C82 22 85 24 88 24C91 24 94 22 96 20C98 18 100 15 102 15C104 15 106 18 104 22C102 26 98 30 94 32C90 34 85 34 82 32C79 30 77 26 75 24" fill="#8B7355" opacity="0.4"/>
+  <path d="M78 17C78 17 80 19 82 21C84 23 87 24 89 24C91 24 93 23 95 21C97 19 99 17 100 17C101 17 102 19 101 22C100 25 97 28 94 30C91 32 87 32 85 30C83 28 81 25 79 24" fill="#8B7355" opacity="0.3"/>
+</svg>

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divider Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #1a1a1a;
+        color: #d4d4d4;
+      }
+
+      .titleContainer {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+      }
+
+      .titleContent {
+        padding: 0 30px;
+        margin-top: -5px;
+        min-width: fit-content;
+      }
+
+      .divider-icon {
+        width: 120px;
+        height: 48px;
+        display: block;
+      }
+
+      .dark .divider-icon {
+        opacity: 0.4;
+      }
+
+      h5 {
+        margin: 0;
+        color: #d4d4d4;
+      }
+
+      .demo-section {
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      .demo-label {
+        margin-bottom: 10px;
+        color: #888;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- Regular version -->
+      <div class="demo-section">
+        <div class="demo-label">Regular Version</div>
+        <ul class="titleContainer">
+          <li>
+            <svg
+              class="divider-icon"
+              viewBox="0 0 120 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 40C10 40 5 35 5 28C5 20 10 15 15 12C20 9 25 8 25 8C25 8 20 10 16 14C12 18 10 22 10 28C10 34 15 40 15 40"
+                stroke="#8B7355"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M8 38C8 38 3 33 3 25C3 18 8 13 13 10C18 7 25 6 25 6C25 6 20 8 15 12C10 16 8 20 8 25C8 32 13 38 13 38"
+                stroke="#8B7355"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M6 36C6 36 2 31 2 24C2 17 7 12 12 9C16 6 22 5 22 5C22 5 17 7 13 11C9 15 6 19 6 24C6 30 11 36 11 36"
+                stroke="#8B7355"
+                stroke-width="1"
+                stroke-linecap="round"
+              />
+              <rect x="30" y="18" width="40" height="12" fill="#8B7355" />
+              <line
+                x1="30"
+                y1="24"
+                x2="70"
+                y2="24"
+                stroke="white"
+                stroke-width="1"
+              />
+              <path
+                d="M75 15C75 15 78 18 80 20C82 22 85 24 88 24C91 24 94 22 96 20C98 18 100 15 102 15C104 15 106 18 104 22C102 26 98 30 94 32C90 34 85 34 82 32C79 30 77 26 75 24"
+                fill="#8B7355"
+              />
+              <path
+                d="M78 17C78 17 80 19 82 21C84 23 87 24 89 24C91 24 93 23 95 21C97 19 99 17 100 17C101 17 102 19 101 22C100 25 97 28 94 30C91 32 87 32 85 30C83 28 81 25 79 24"
+                fill="#8B7355"
+                opacity="0.7"
+              />
+            </svg>
+          </li>
+          <li class="titleContent">
+            <h5>
+              <div style="font-size: 15px">
+                <div style="display: block; white-space: nowrap">
+                  Рыцарь смерти
+                </div>
+              </div>
+            </h5>
+          </li>
+          <li>
+            <svg
+              class="divider-icon"
+              viewBox="0 0 120 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 15C10 15 13 18 15 20C17 22 20 24 23 24C26 24 29 22 31 20C33 18 35 15 37 15C39 15 41 18 39 22C37 26 33 30 29 32C25 34 20 34 17 32C14 30 12 26 10 24"
+                fill="#8B7355"
+              />
+              <path
+                d="M13 17C13 17 15 19 17 21C19 23 22 24 24 24C26 24 28 23 30 21C32 19 34 17 35 17C36 17 37 19 36 22C35 25 32 28 29 30C26 32 22 32 20 30C18 28 16 25 14 24"
+                fill="#8B7355"
+                opacity="0.7"
+              />
+              <rect x="40" y="18" width="40" height="12" fill="#8B7355" />
+              <line
+                x1="40"
+                y1="24"
+                x2="80"
+                y2="24"
+                stroke="white"
+                stroke-width="1"
+              />
+              <path
+                d="M90 30C90 30 88 28 88 25C88 22 90 20 93 18C96 16 100 15 103 15C106 15 108 16 108 18C108 20 106 22 104 24C102 26 100 28 98 30C96 32 94 34 92 36C90 38 88 38 87 36"
+                stroke="#8B7355"
+                stroke-width="2"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M95 20C95 20 94 18 95 16C96 14 98 13 100 13C102 13 104 14 105 16C106 18 106 20 105 22"
+                stroke="#8B7355"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M98 18C98 18 97 17 98 15C99 13 100 13 101 13C102 13 103 14 103 15"
+                stroke="#8B7355"
+                stroke-width="1"
+                stroke-linecap="round"
+                fill="none"
+              />
+            </svg>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Dark version -->
+      <div class="demo-section dark">
+        <div class="demo-label">Dark Version (opacity: 0.4)</div>
+        <ul class="titleContainer">
+          <li>
+            <svg
+              class="divider-icon"
+              viewBox="0 0 120 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 40C10 40 5 35 5 28C5 20 10 15 15 12C20 9 25 8 25 8C25 8 20 10 16 14C12 18 10 22 10 28C10 34 15 40 15 40"
+                stroke="#8B7355"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M8 38C8 38 3 33 3 25C3 18 8 13 13 10C18 7 25 6 25 6C25 6 20 8 15 12C10 16 8 20 8 25C8 32 13 38 13 38"
+                stroke="#8B7355"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M6 36C6 36 2 31 2 24C2 17 7 12 12 9C16 6 22 5 22 5C22 5 17 7 13 11C9 15 6 19 6 24C6 30 11 36 11 36"
+                stroke="#8B7355"
+                stroke-width="1"
+                stroke-linecap="round"
+              />
+              <rect
+                x="30"
+                y="18"
+                width="40"
+                height="12"
+                fill="#8B7355"
+                opacity="0.4"
+              />
+              <line
+                x1="30"
+                y1="24"
+                x2="70"
+                y2="24"
+                stroke="white"
+                stroke-width="1"
+              />
+              <path
+                d="M75 15C75 15 78 18 80 20C82 22 85 24 88 24C91 24 94 22 96 20C98 18 100 15 102 15C104 15 106 18 104 22C102 26 98 30 94 32C90 34 85 34 82 32C79 30 77 26 75 24"
+                fill="#8B7355"
+                opacity="0.4"
+              />
+              <path
+                d="M78 17C78 17 80 19 82 21C84 23 87 24 89 24C91 24 93 23 95 21C97 19 99 17 100 17C101 17 102 19 101 22C100 25 97 28 94 30C91 32 87 32 85 30C83 28 81 25 79 24"
+                fill="#8B7355"
+                opacity="0.3"
+              />
+            </svg>
+          </li>
+          <li class="titleContent">
+            <h5>
+              <div style="font-size: 15px">
+                <div style="display: block; white-space: nowrap">
+                  Рыцарь смерти
+                </div>
+              </div>
+            </h5>
+          </li>
+          <li>
+            <svg
+              class="divider-icon"
+              viewBox="0 0 120 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 15C10 15 13 18 15 20C17 22 20 24 23 24C26 24 29 22 31 20C33 18 35 15 37 15C39 15 41 18 39 22C37 26 33 30 29 32C25 34 20 34 17 32C14 30 12 26 10 24"
+                fill="#8B7355"
+                opacity="0.4"
+              />
+              <path
+                d="M13 17C13 17 15 19 17 21C19 23 22 24 24 24C26 24 28 23 30 21C32 19 34 17 35 17C36 17 37 19 36 22C35 25 32 28 29 30C26 32 22 32 20 30C18 28 16 25 14 24"
+                fill="#8B7355"
+                opacity="0.3"
+              />
+              <rect
+                x="40"
+                y="18"
+                width="40"
+                height="12"
+                fill="#8B7355"
+                opacity="0.4"
+              />
+              <line
+                x1="40"
+                y1="24"
+                x2="80"
+                y2="24"
+                stroke="white"
+                stroke-width="1"
+              />
+              <path
+                d="M90 30C90 30 88 28 88 25C88 22 90 20 93 18C96 16 100 15 103 15C106 15 108 16 108 18C108 20 106 22 104 24C102 26 100 28 98 30C96 32 94 34 92 36C90 38 88 38 87 36"
+                stroke="#8B7355"
+                stroke-width="2"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M95 20C95 20 94 18 95 16C96 14 98 13 100 13C102 13 104 14 105 16C106 18 106 20 105 22"
+                stroke="#8B7355"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M98 18C98 18 97 17 98 15C99 13 100 13 101 13C102 13 103 14 103 15"
+                stroke="#8B7355"
+                stroke-width="1"
+                stroke-linecap="round"
+                fill="none"
+              />
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
