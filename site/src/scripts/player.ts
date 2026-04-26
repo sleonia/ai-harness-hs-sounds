@@ -1,12 +1,15 @@
-const status = document.getElementById("status") as HTMLElement | null;
-
 let currentAudio: HTMLAudioElement | null = null;
 let currentButton: HTMLButtonElement | null = null;
 
 function setButtonState(button: HTMLButtonElement, state: "idle" | "playing") {
+  const title = button.dataset.title ?? "";
+  const label = button.dataset.label ?? "clip";
   button.dataset.state = state;
   button.setAttribute("aria-pressed", state === "playing" ? "true" : "false");
-  button.textContent = state === "playing" ? "Pause" : button.dataset.label;
+  button.setAttribute(
+    "aria-label",
+    `${state === "playing" ? "Pause" : "Play"} audio: ${title} - ${label}`,
+  );
 }
 
 function resetCurrent() {
@@ -28,7 +31,6 @@ function playCard(button: HTMLButtonElement) {
 
   if (currentButton === button && currentAudio && !currentAudio.paused) {
     resetCurrent();
-    status!.textContent = `Paused: ${title} (${label})`;
     return;
   }
 
@@ -38,25 +40,21 @@ function playCard(button: HTMLButtonElement) {
   currentAudio = audio;
   currentButton = button;
   setButtonState(button, "playing");
-  status!.textContent = `Playing: ${title} (${label})`;
 
   audio.addEventListener("ended", () => {
     if (currentButton === button) {
       resetCurrent();
-      status!.textContent = `Finished: ${title} (${label})`;
     }
   });
 
   audio.addEventListener("error", () => {
     if (currentButton === button) {
       resetCurrent();
-      status!.textContent = `Could not load audio: ${title} (${label})`;
     }
   });
 
   audio.play().catch(() => {
     resetCurrent();
-    status!.textContent = `Playback was blocked for: ${title} (${label})`;
   });
 }
 

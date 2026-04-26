@@ -424,6 +424,340 @@
           "soundpack/Нейтральные - Все/Нетерпеливая вестница Рока/VO_BG21_007_Female_Human_Attack_01.wav"
         ]
       }
+    ],
+    "Core Set": [
+      {
+        "title": "Корсар Туманных Парусов",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/66854",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CS3_022.png",
+        "fsPath": "soundpack/Core Set/Корсар Туманных Парусов",
+        "audios": [
+          "soundpack/Core Set/Корсар Туманных Парусов/VO_CS3_022_Male_KulTiranPirate_Attack_01.wav",
+          "soundpack/Core Set/Корсар Туманных Парусов/VO_CS3_022_Male_KulTiranPirate_Play_01.wav"
+        ]
+      }
+    ],
+    "Черная гора": [
+      {
+        "title": "Главарь банды бесов",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2288",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_006.png",
+        "fsPath": "soundpack/[2015.04.2] Черная гора/Главарь банды бесов",
+        "audios": [
+          "soundpack/[2015.04.2] Черная гора/Главарь банды бесов/VO_BRM_006_Attack_02.wav",
+          "soundpack/[2015.04.2] Черная гора/Главарь банды бесов/VO_BRM_006_Play_01.wav"
+        ]
+      },
+      {
+        "title": "Метатель топоров",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2297",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_016.png",
+        "fsPath": "soundpack/[2015.04.2] Черная гора/Метатель топоров",
+        "audios": [
+          "soundpack/[2015.04.2] Черная гора/Метатель топоров/VO_BRM_016_Play_01.wav"
+        ]
+      },
+      {
+        "title": "Мрачный завсегдатай",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2279",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_019.png",
+        "fsPath": "soundpack/[2015.04.2] Черная гора/Мрачный завсегдатай",
+        "audios": [
+          "soundpack/[2015.04.2] Черная гора/Мрачный завсегдатай/VO_BRM_019_Attack_02.wav",
+          "soundpack/[2015.04.2] Черная гора/Мрачный завсегдатай/VO_BRM_019_Trigger_03.wav"
+        ]
+      },
+      {
+        "title": "Техник Крыла Тьмы",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2408",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_033.png",
+        "fsPath": "soundpack/[2015.04.2] Черная гора/Техник Крыла Тьмы",
+        "audios": [
+          "soundpack/[2015.04.2] Черная гора/Техник Крыла Тьмы/VO_BRM_033_Play_01.wav"
+        ]
+      }
+    ],
+    "Лига исследователей": [
+      {
+        "title": "Бранн Бронзобород",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2949",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/LOE_077.png",
+        "fsPath": "soundpack/[2015.11.12] Лига исследователей/Бранн Бронзобород",
+        "audios": [
+          "soundpack/[2015.11.12] Лига исследователей/Бранн Бронзобород/VO_LOE_077_Play_16.wav"
+        ]
+      },
+      {
+        "title": "Рено Джексон",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2883",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/LOE_011.png",
+        "fsPath": "soundpack/[2015.11.12] Лига исследователей/Рено Джексон",
+        "audios": [
+          "soundpack/[2015.11.12] Лига исследователей/Рено Джексон/VO_LOE_011_Play_12.wav"
+        ]
+      }
+    ],
+    "Злачный город Прибамбасск": [
+      {
+        "title": "«Бугай»-технарь",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40568",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_754.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/«Бугай»-технарь",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/«Бугай»-технарь/VO_CFM_754_Male_Goblin_Attack_03.wav"
+        ]
+      },
+      {
+        "title": "Аукционист Вихлюн",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40605",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_807.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Аукционист Вихлюн",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Аукционист Вихлюн/VO_CFM_807_Male_Goblin_Play_01.wav"
+        ]
+      },
+      {
+        "title": "Бесстрашный репортер",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40741",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_851.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Бесстрашный репортер",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Бесстрашный репортер/VO_CFM_851_Female_NightElf_Attack_01.wav"
+        ]
+      },
+      {
+        "title": "Громила из трущоб",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40469",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_639.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Громила из трущоб",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Громила из трущоб/VO_CFM_639_Male_Dwarf_Play_01.wav"
+        ]
+      },
+      {
+        "title": "Грязная крыса",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/41567",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_790.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Грязная крыса",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Грязная крыса/VO_CFM_790_Male_Kobold_Attack_01.wav",
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Грязная крыса/VO_CFM_790_Male_Kobold_Play_03.wav"
+        ]
+      },
+      {
+        "title": "Лепрогном из подворотни",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40492",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_646.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Лепрогном из подворотни",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Лепрогном из подворотни/VO_CFM_646_Male_Gnome_Attack_02.wav"
+        ]
+      },
+      {
+        "title": "Мастерица микстур",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/41566",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_120.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Мастерица микстур",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Мастерица микстур/VO_CFM_120_Female_Undead_Attack_01.wav"
+        ]
+      },
+      {
+        "title": "Морской дьявол",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40691",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_699.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Attack_01.wav",
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Attack_01(1).wav",
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Play_01.wav",
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Play_01(1).wav"
+        ]
+      },
+      {
+        "title": "Осведомитель из трущоб",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40474",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_321.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Осведомитель из трущоб",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Осведомитель из трущоб/VO_CFM_321_Male_OrcAdolescent_Play_02.wav"
+        ]
+      },
+      {
+        "title": "Прихвостень «Кабала»",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40299",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_066.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Прихвостень «Кабала»",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Прихвостень «Кабала»/VO_CFM_066_Male_Goren_Attack_01.wav"
+        ]
+      },
+      {
+        "title": "Радушный трактирщик",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40914",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_654.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Радушный трактирщик",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Радушный трактирщик/VO_CFM_654_Male_Tauren_Play_01.wav"
+        ]
+      },
+      {
+        "title": "Светская львица",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40949",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_659.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Светская львица",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Светская львица/VO_CFM_659_Female_Gnome_Attack_01.wav"
+        ]
+      },
+      {
+        "title": "Уличный детектив",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40928",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_656.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Уличный детектив",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Уличный детектив/VO_CFM_656_Male_NightElf_Attack_01.wav"
+        ]
+      },
+      {
+        "title": "Шипастый хряк",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40700",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_688.png",
+        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Шипастый хряк",
+        "audios": [
+          "soundpack/[2016.12.1] Злачный город Прибамбасск/Шипастый хряк/VO_CFM_688_Male_Quilboar_Attack_03.wav"
+        ]
+      }
+    ],
+    "Экспедиция в Ун’Горо": [
+      {
+        "title": "Арканолог",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/41153",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/UNG_020.png",
+        "fsPath": "soundpack/[2017.04.6] Экспедиция в Ун’Горо/Арканолог",
+        "audios": [
+          "soundpack/[2017.04.6] Экспедиция в Ун’Горо/Арканолог/VO_UNG_020_Female_Gnome_Attack_01.wav",
+          "soundpack/[2017.04.6] Экспедиция в Ун’Горо/Арканолог/VO_UNG_020_Female_Gnome_Play_01.wav"
+        ]
+      }
+    ],
+    "Рыцари Ледяного Трона": [
+      {
+        "title": "Архиепископ Бенедикт",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42633",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_215.png",
+        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Архиепископ Бенедикт",
+        "audios": [
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Архиепископ Бенедикт/VO_ICC_215_Male_Human_Play_01.wav"
+        ]
+      },
+      {
+        "title": "Вороватый дух",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/45975",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_910.png",
+        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Вороватый дух",
+        "audios": [
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Вороватый дух/VO_ICC_910_Female_Banshee_Play_03.wav"
+        ]
+      },
+      {
+        "title": "Воскреситель мертвых",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42909",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_257.png",
+        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Воскреситель мертвых",
+        "audios": [
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Воскреситель мертвых/VO_ICC_257_Male_Ymirjar_Attack_01.wav"
+        ]
+      },
+      {
+        "title": "Гадкий натрезим",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42743",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_075.png",
+        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Гадкий натрезим",
+        "audios": [
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Гадкий натрезим/VO_ICC_075_Male_Dreadlord_Play_01.wav"
+        ]
+      },
+      {
+        "title": "Король-лич (карта)",
+        "blizzardUrl": "",
+        "imageUrl": "",
+        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)",
+        "audios": [
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)/VO_ICC_239_Male_Human_Attack_03.wav"
+        ]
+      },
+      {
+        "title": "Профессор Мерзоцид",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42563",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_204.png",
+        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Профессор Мерзоцид",
+        "audios": [
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Профессор Мерзоцид/VO_ICC_204_Male_Undead_Attack_02.wav",
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Профессор Мерзоцид/VO_ICC_204_Male_Undead_Trigger_01.wav"
+        ]
+      },
+      {
+        "title": "Чародейка Драккари",
+        "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42442",
+        "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_029.png",
+        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Чародейка Драккари",
+        "audios": [
+          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Чародейка Драккари/VO_ICC_029_Female_Troll_Attack_02.wav"
+        ]
+      }
+    ],
+    "Книга Героев": [
+      {
+        "title": "Джайна",
+        "blizzardUrl": "",
+        "imageUrl": "/heroes/jaina.avif",
+        "fsPath": "soundpack/Книга Героев/Джайна",
+        "audios": [
+          "soundpack/Книга Героев/Джайна/Шандриса Оперенная Луна/VO_Story_Minion_Shandris_Female_NightElf_Attack_01.wav",
+          "soundpack/Книга Героев/Джайна/Шандриса Оперенная Луна/VO_Story_Minion_Shandris_Female_NightElf_Play_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Concede_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Full_Minions_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Generic_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Hand_Full_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Oops_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Thanks_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Time_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_WellPlayed_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Wow_01.wav",
+          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Human_Female_Story_Jaina_Threaten_01.wav"
+        ]
+      },
+      {
+        "title": "Рексар",
+        "blizzardUrl": "",
+        "imageUrl": "/heroes/hunter.avif",
+        "fsPath": "soundpack/Книга Героев/Рексар",
+        "audios": [
+          "soundpack/Книга Героев/Рексар/VO_Story_Hero_Rexxar_Male_Orc-Ogre_Story_Rexxar_Attack_01.wav"
+        ]
+      }
+    ],
+    "Разное": [
+      {
+        "title": "Разное",
+        "blizzardUrl": "",
+        "imageUrl": "",
+        "fsPath": "soundpack/Разное",
+        "audios": ["soundpack/Разное/VO_JobsDone.wav"]
+      }
+    ],
+    "Хозяин таверны": [
+      {
+        "title": "Хозяин таверны",
+        "blizzardUrl": "",
+        "imageUrl": "/ui/innkeeper.webp",
+        "fsPath": "soundpack/Хозяин таверны",
+        "audios": [
+          "soundpack/Хозяин таверны/VO_ANNOUNCER_LEGENDARY_25.wav",
+          "soundpack/Хозяин таверны/VO_INNKEEPER_FORGE_2LOSS_25.wav"
+        ]
+      }
     ]
   }
 }
