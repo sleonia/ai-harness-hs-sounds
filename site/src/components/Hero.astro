@@ -28,50 +28,50 @@ const { cardCount, clipCount } = Astro.props;
 <style>
   .filter-wrapper {
     position: relative;
+    box-sizing: border-box;
     margin: 0 auto 2rem;
-    padding: 11px 4rem 0;
     background: url("https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/bg_filter_middle_tile-907853600f2b8dc11ae3acca94ff309f58b4959f380a6995e1b69b2d94f4bae5811b3ec588d56290599d59ddf6d00f0ce3fa9087c08ee8f7eabe843ed3646f9d.jpg")
       repeat;
     background-position: 0% 0%;
-    min-height: 104px;
+    padding: 11px 4rem 0;
     width: 100%;
-    box-sizing: border-box;
+    min-height: 104px;
   }
 
   .filter-wrapper::before {
-    content: "";
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
-    height: 60px;
+    left: 0;
     background: url("https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/bg_filter_top_tile-2fc1e6f76b820b6c4134c00256a3c6210296b44f0e704fc3df57489c18a1ce91bb35b7ecd693c8d4b5c497c751f32e530105028ba52a88a7f13f8879ec342294.png")
       repeat-x;
     background-position: 50% 0%;
     background-size: auto;
+    height: 60px;
+    content: "";
   }
 
   .filter-wrapper::after {
-    content: "";
     position: absolute;
+    right: 0;
     bottom: -15px;
     left: 0;
-    right: 0;
-    height: 60px;
     background: url("https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/bg_filter_bottom_tile-fe6e278438831fdcb9e897c1d90882eadf1c9c9edb05f9e729b8678c3da8ce386e4a5a03200d943c64837e7d113a8345b8424d05b7906570dde191e3eab8b4dd.png")
       repeat-x;
     background-position: 50% 0%;
     background-size: auto;
+    height: 60px;
+    content: "";
   }
 
   .filter-content {
     display: flex;
-    align-items: center;
+    position: relative;
     justify-content: space-between;
+    align-items: center;
+    z-index: 1;
     padding: 0;
     height: 93px;
-    position: relative;
-    z-index: 1;
   }
 
   .header-content {
@@ -82,10 +82,10 @@ const { cardCount, clipCount } = Astro.props;
 
   .site-title {
     margin: 0;
-    font-size: clamp(1.5rem, 3vw, 2.2rem);
-    line-height: 1;
     color: #c9a957;
     font-weight: 700;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    line-height: 1;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
 
@@ -93,8 +93,8 @@ const { cardCount, clipCount } = Astro.props;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.9rem;
     color: #d4c4a8;
+    font-size: 0.9rem;
     font-family: inherit;
   }
 
@@ -113,11 +113,11 @@ const { cardCount, clipCount } = Astro.props;
     }
 
     .filter-content {
+      flex-direction: column;
+      align-items: flex-start;
       padding: 0;
       height: auto;
       min-height: 93px;
-      flex-direction: column;
-      align-items: flex-start;
     }
 
     .site-title {

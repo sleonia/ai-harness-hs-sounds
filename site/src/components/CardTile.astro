@@ -12,41 +12,33 @@ const hasImage = card.image.length > 0;
 ---
 
 <article class="card" {...props}>
-  <div class="content">
-    <a
-      class="card-link"
-      href={hasSource ? card.source : "#"}
-      aria-disabled={!hasSource || undefined}
-    >
-      <div class="art">
-        {
-          hasImage ? (
-            <img src={card.image} alt={card.title} loading="lazy" />
-          ) : (
-            <div class="art-placeholder">No image</div>
-          )
-        }
-      </div>
-        <h2 class="title visually-hidden">{card.title}</h2>
-    </a>
-    <div class="actions">
-      {
-        card.audios.map((clip) => (
-          <button
-            class="button"
-            type="button"
-            data-state="idle"
-            data-label={clip.label}
-            data-path={clip.path}
-            data-title={card.title}
-            aria-pressed="false"
-            aria-label={`Play audio: ${card.title} - ${clip.label}`}
-          >
-            <img src="/ui/play-button.png" alt="" class="play-icon" />
-          </button>
-        ))
-      }
+  <a
+    class="card-link"
+    href={hasSource ? card.source : "#"}
+    aria-disabled={!hasSource || undefined}
+  >
+    <div class="art">
+      {hasImage && <img src={card.image} alt={card.title} loading="lazy" />}
     </div>
+    <h2 class="title visually-hidden">{card.title}</h2>
+  </a>
+  <div class="actions">
+    {
+      card.audios.map((clip) => (
+        <button
+          class="button"
+          type="button"
+          data-state="idle"
+          data-label={clip.label}
+          data-path={clip.path}
+          data-title={card.title}
+          aria-pressed="false"
+          aria-label={`Play audio: ${card.title} - ${clip.label}`}
+        >
+          <img src="/ui/play-button.png" alt="" class="play-icon" />
+        </button>
+      ))
+    }
   </div>
 </article>
 
@@ -61,14 +53,15 @@ const hasImage = card.image.length > 0;
   }
 
   .card-link {
-    text-decoration: none;
-    outline: none;
+    display: block;
     transition: transform 0.2s ease;
+    outline: none;
+    text-decoration: none;
 
-      &:hover,
-      &:focus {
-      filter: drop-shadow(rgba(255, 255, 255, 0.6) 0px 0px 15px);
+    &:hover,
+    &:focus {
       transform: scale(1.1);
+      filter: drop-shadow(rgba(255, 255, 255, 0.6) 0px 0px 15px);
     }
   }
 
@@ -78,10 +71,10 @@ const hasImage = card.image.length > 0;
 
   .art img {
     display: block;
+    filter: drop-shadow(rgba(0, 0, 0, 0.6) 0px 3px 3px);
+    transition: transform 0.2s ease;
     height: clamp(200px, 300px, 300px);
     object-fit: cover;
-    transition: transform 0.2s ease;
-    filter: drop-shadow(rgba(0, 0, 0, 0.6) 0px 3px 3px);
   }
 
   .art-placeholder {
@@ -94,13 +87,13 @@ const hasImage = card.image.length > 0;
   }
 
   .title {
+    transition: color 0.3s ease;
     margin: 0;
+    color: var(--hs-text-primary);
+    font-weight: 700;
     font-size: 1.35rem;
     line-height: 1.2;
-    color: var(--hs-text-primary);
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    transition: color 0.3s ease;
   }
 
   .actions {
@@ -112,33 +105,33 @@ const hasImage = card.image.length > 0;
 
   .button {
     display: flex;
-    align-items: center;
+    position: relative;
+    flex: 0 0 36px;
     justify-content: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+    border: 0;
+    background-image: none;
+    background-color: transparent;
+    padding: 0;
     width: 36px;
     height: 34px;
     min-height: 34px;
-    padding: 0;
-    border: 0;
-    flex: 0 0 36px;
-    cursor: pointer;
-    position: relative;
-    z-index: 2;
-    background-color: transparent;
-    background-image: none;
 
-    &:hover, &:focus {
-          transform: scale(1.1);
-          filter: brightness(1.1);
-          outline: none;
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+      filter: brightness(1.1);
+      outline: none;
     }
   }
 
   .play-icon {
+    z-index: 1;
     width: 60px;
     height: auto;
     object-fit: contain;
     pointer-events: none;
-    z-index: 1;
-
   }
 </style>

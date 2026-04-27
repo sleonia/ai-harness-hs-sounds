@@ -1,5 +1,5 @@
 export default {
-  plugins: ["prettier-plugin-astro"],
+  plugins: ["prettier-plugin-css-order", "prettier-plugin-astro"],
   overrides: [
     {
       files: "*.astro",

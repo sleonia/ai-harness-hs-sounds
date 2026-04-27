@@ -15,8 +15,7 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
   </head>
   <body>
     <main class="shell">
-      <Hero cardCount={cards.length} clipCount={totalClips}>
-      </Hero>
+      <Hero cardCount={cards.length} clipCount={totalClips} />
       <GridWrapper>
         <section class="grid" aria-label="Mapped cards">
           {cards.map((card) => <CardTile card={card} data-set={card.set} />)}
@@ -30,30 +29,30 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
 
 <style is:global>
   @font-face {
-    font-family: "Open Sans";
+    font-weight: 400;
     src: url("https://fonts.gstatic.com/s/opensans/v36/mem8YaGs126MiZpBA-UFWJ0bbck.woff2")
       format("woff2");
-    font-weight: 400;
+    font-family: "Open Sans";
     font-display: swap;
   }
 
   @font-face {
-    font-family: "Open Sans";
+    font-weight: 700;
     src: url("https://fonts.gstatic.com/s/opensans/v36/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2")
       format("woff2");
-    font-weight: 700;
+    font-family: "Open Sans";
     font-display: swap;
   }
 
   @font-face {
-    font-family: "Benguiat Bold";
     src: url("/fonts/Benguiat-Bold.woff") format("woff");
+    font-family: "Benguiat Bold";
     font-display: swap;
   }
 
   @font-face {
-    font-family: "Belwe Bold";
     src: url("/fonts/Belwe-Bold.woff") format("woff");
+    font-family: "Belwe Bold";
     font-display: swap;
   }
 
@@ -83,12 +82,8 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
 
   body {
     margin: 0;
-    min-height: 100vh;
-    font-family: "Benguiat Bold", Georgia, serif;
     color: var(--hs-text-primary);
-    background:
-      radial-gradient(circle at top, rgba(35, 58, 110, 0.08), transparent 50%),
-      linear-gradient(180deg, #0a0a0a 0%, #0f0f0f 45%, #050505 100%);
+    font-family: "Benguiat Bold", Georgia, serif;
   }
 
   a {
@@ -97,31 +92,31 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
 
   .shell {
     margin: 0;
-    padding: 0 0 2rem 0;
     background: url("/bg.jpg");
+    padding: 0 0 2rem 0;
   }
 
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-items: center;
     padding: 0 4rem;
   }
 
   .visually-hidden {
     position: absolute;
+    margin: -1px;
+    padding: 0;
     width: 1px;
     height: 1px;
-    padding: 0;
-    margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
     border-width: 0;
+    white-space: nowrap;
   }
 
   @media (max-width: 768px) {
     .shell {
-      width: min(100% - 1rem, 36rem);
       padding: 2rem 0 3rem;
     }
 

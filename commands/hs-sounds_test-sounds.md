@@ -15,7 +15,6 @@ Test sounds by running the plugin playback commands directly.
 
 Use a single Bash tool call for testing the soundpack.
 
-
 ```bash
 node plugin/src/index.mjs
 ```

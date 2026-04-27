@@ -30,9 +30,9 @@ Research conducted on https://hearthstone.blizzard.com/ru-ru/cards to extract de
 ```css
 /* Base text style */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 15.4776px;
   color: rgb(0, 0, 0);
+  font-size: 15.4776px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 ```
 
@@ -70,13 +70,13 @@ body {
 .Card {
   display: flex;
   position: relative;
-  width: 240px;
-  height: 350px;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 0px;
-  box-shadow: none;
   transition: all;
   cursor: pointer;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 240px;
+  height: 350px;
 }
 ```
 
@@ -84,13 +84,13 @@ body {
 
 ```css
 .CardGalleryFilters-mainContainer {
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 0px none rgb(0, 0, 0);
-  padding: 0px 20px 0px 10px;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   gap: normal;
-  flex-wrap: nowrap;
+  border-bottom: 0px none rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px 20px 0px 10px;
 }
 ```
 
@@ -98,18 +98,18 @@ body {
 
 ```css
 .CardSetBackground {
-  background-color: rgba(0, 0, 0, 0);
-  min-height: 335px;
-  padding: 0px;
   display: block;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px;
+  min-height: 335px;
 }
 
 .CardSetLogo {
+  display: block;
   background-image: url("https://d2q63o9r0h0ohi.cloudfront.net/images/icons/yearIcons/frame_library_header_standard-704e0c33344e8ca0a367f8a321aa72ab29e9949ec0ad3671b098b58cd4e2120595adc302fbd87f609573dccefbd74ab2498c98a177bb15eec8eebf699f812832.png");
   background-position: 50% 50%;
   background-size: contain;
   width: 300px;
-  display: block;
 }
 ```
 
@@ -119,19 +119,19 @@ body {
 
 ```css
 .mana-button {
-  width: 36px;
-  height: 34px;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/icon_mana-25ac7617a8c7f5f992660316dd307cf16b36001d1fa9693a5aca46eb01db420041018a1bbed19055f963b2421b7f615b887e84e1508be42c7b74138ee4794829.png");
-  background-size: contain;
-  background-position: 50% 50%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   border: 0px none rgb(0, 0, 0);
   border-radius: 0px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  background-image: url("https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/icon_mana-25ac7617a8c7f5f992660316dd307cf16b36001d1fa9693a5aca46eb01db420041018a1bbed19055f963b2421b7f615b887e84e1508be42c7b74138ee4794829.png");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0);
+  width: 36px;
+  height: 34px;
 }
 ```
 
@@ -139,13 +139,13 @@ body {
 
 ```css
 .mana-button::before {
-  content: "";
   display: block;
   position: absolute;
-  width: 56px;
-  height: 54px;
   background-image: url("https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/icon_mana_hoverselected-4b4e72e3465b332fb2535f178dac9db4f5a279dc6432c57bb309c2bd63229e4ef7fea8be1a8b1463410983c2316ae33f95a91a75d2407a6952551bb3c17b1478.png");
   background-size: contain;
+  width: 56px;
+  height: 54px;
+  content: "";
 }
 ```
 
@@ -153,12 +153,12 @@ body {
 
 ```css
 .mana-number {
-  font-size: 23.7592px;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  padding: 0px;
   position: relative;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 23.7592px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 ```
 
@@ -168,8 +168,8 @@ body {
 .mana-container {
   display: flex;
   gap: normal;
-  padding: 0px;
   background-color: rgba(0, 0, 0, 0);
+  padding: 0px;
 }
 ```
 
@@ -179,18 +179,18 @@ body {
 
 ```css
 .filter-button {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 15.4776px;
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
-  padding: 0px 0px 0px 20px;
-  border: 0px none rgb(0, 0, 0);
-  border-radius: 0px;
-  cursor: pointer;
   display: flex;
   align-items: center;
   gap: normal;
+  cursor: pointer;
+  border: 0px none rgb(0, 0, 0);
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px 0px 0px 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 15.4776px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 ```
 
