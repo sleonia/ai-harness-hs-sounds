@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "hearthstone-sounds",
-      "source": "./dist/claude",
+      "source": "https://github.com/sleonia/claude-code-hs-sounds/releases/download/v1.0.0/claude-code-hs-sounds.tar.gz",
       "description": "Play memorable Hearthstone sounds when Claude Code needs your attention",
       "version": "1.0.0",
       "keywords": ["sounds", "notifications", "audio", "hearthstone"]

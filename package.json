@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "build:claude": "node scripts/build.mjs claude",
-    "format": "prettier --write \"**/*.{js,ts,json,md}\" \"site/src/**/*.{astro,js,ts,css,scss,json,md}\""
+    "format": "prettier --write \"**/*.{js,ts,json,md}\" \"site/src/**/*.{astro,js,ts,css,scss,json,md}\"",
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "prettier": "^3.8.3",
