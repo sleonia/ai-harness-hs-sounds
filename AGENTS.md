@@ -10,7 +10,15 @@ Keep new assets inside the existing set/category structure. Store documentation 
 
 ## Build, Test, and Development Commands
 
-There is no build system or automated test suite in this repository. The main workflow is validating and cleaning audio files locally.
+The repository includes a build system for creating distributable Claude Code plugins.
+
+### Build Commands
+
+- `npm run build`: Build the Claude Code plugin distribution to `dist/claude/`
+- `npm run build:claude`: Same as above (default target is Claude)
+- `npm run format`: Format code using Prettier
+
+### Audio Validation
 
 - `find soundpack -type f -iname '*.wav'`: list all tracked audio assets.
 - `afinfo path/to/file.wav`: inspect sample rate, channels, and duration on macOS.
@@ -57,11 +65,41 @@ Pull requests should include a brief summary of what changed, affected folders, 
 
 The repository includes a Claude Code plugin that provides a custom slash command for playing random sounds as AI agent notifications.
 
-### Plugin Architecture
+### Source Structure
 
-- **Location**: `plugin/` directory
-- **Entry point**: `plugin/src/index.mjs`
-- **Manifest**: `plugin/manifest.json`
+The plugin source code is organized as follows:
+
+```
+src/
+├── claude/           # Claude Code-specific plugin code
+│   ├── src/          # Plugin entry point and Claude-specific logic
+│   ├── commands/     # Command definitions (e.g., hs-sounds_test-sounds.md)
+│   ├── hooks/        # Claude Code hooks
+│   └── manifest.json # Plugin manifest
+└── shared/           # Shared code for multiple AI agents
+    └── src/
+        ├── sound-selector.mjs  # Sound selection logic
+        └── audio-player.mjs     # Audio playback utilities
+```
+
+### Build Process
+
+The build system creates distributable plugin packages:
+
+1. Run `npm run build` to execute the build script
+2. The build script (`scripts/build.mjs`):
+   - Copies `src/claude/` → `dist/claude/`
+   - Copies `src/shared/src/` → `dist/claude/src/shared/`
+   - Copies `soundpack/` → `dist/claude/soundpack/`
+   - Copies `meta.json` → `dist/claude/meta.json`
+   - Rewrites import paths to use correct relative paths (`./shared/`)
+3. The resulting `dist/claude/` directory is ready for installation
+
+### Plugin Architecture (Built Distribution)
+
+- **Location**: `dist/claude/` directory (after build)
+- **Entry point**: `src/index.mjs`
+- **Manifest**: `manifest.json`
 - **Command**: `/hs-sounds:test-sounds` - plays a random sound from the pack
 
 ### Sound Selection

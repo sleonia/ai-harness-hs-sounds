@@ -20,10 +20,10 @@ I also took inspiration from this repo: https://github.com/newink/claudecode-sou
 
 This sound pack is available as a Claude Code plugin. Install it to get AI agent notifications from Hearthstone's golden era.
 
-1. Open Claude Code
-2. Navigate to the Plugin Marketplace
-3. Search for "Hearthstone Sound Pack"
-4. Click Install
+1. Clone this repository
+2. Run `npm install` to install dependencies
+3. Run `npm run build` to build the plugin distribution
+4. Open Claude Code settings and add the built plugin path: `/path/to/repo/dist/claude`
 
 **Usage:** Run `/hs-sounds:test-sounds` to play a random sound from the collection.
 

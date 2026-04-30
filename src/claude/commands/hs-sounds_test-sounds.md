@@ -16,7 +16,7 @@ Test sounds by running the plugin playback commands directly.
 Use a single Bash tool call for testing the soundpack.
 
 ```bash
-node plugin/src/index.mjs
+node dist/claude/src/index.mjs
 ```
 
 Then ask the user which sounds they heard and whether any were missing or incorrect.
