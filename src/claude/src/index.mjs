@@ -1,5 +1,5 @@
-import SoundSelector from "./sound-selector.mjs";
-import AudioPlayer from "./audio-player.mjs";
+import SoundSelector from "../../shared/src/sound-selector.mjs";
+import AudioPlayer from "../../shared/src/audio-player.mjs";
 import path from "path";
 import { fileURLToPath } from "url";
 
