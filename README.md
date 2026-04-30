@@ -16,32 +16,44 @@ I also took inspiration from this repo: https://github.com/newink/claudecode-sou
 
 ## Install
 
-### Claude Code (via Marketplace)
+### Claude Code
 
-This sound pack is available as a Claude Code plugin on the marketplace. Install it directly from Claude Code:
+Clone the repository and run the install script. It builds a self-contained
+plugin and stages it under `~/.claude/hs-sound-pack/` as a local marketplace.
 
-1. Run `/plugin marketplace add https://github.com/sleonia/hs-sound-pack --scope user`
-2. Run `/reload-plugins` to load the plugin
+```bash
+git clone https://github.com/sleonia/claude-code-hs-sounds.git
+cd claude-code-hs-sounds
+./install.sh
+```
 
-**Usage:** Run `/hearthstone-sounds:play-sound` to play a random sound from the collection.
+Then, inside Claude Code, register the marketplace and install the plugin
+(one-time):
 
-**Platform:** macOS only—uses the built-in `afplay` command.
+```
+/plugin marketplace add ~/.claude/hs-sound-pack
+/plugin install hearthstone-sounds@hs-sound-pack
+/reload-plugins
+```
 
-### Claude Code (Manual)
+**Usage:** run `/hearthstone-sounds:play-sound` to play a random sound.
 
-Install from source if you prefer manual setup:
+**Platform:** macOS only — playback uses the built-in `afplay` command.
 
-1. Clone this repository
-2. Run `npm install` to install dependencies
-3. Run `npm run build` to build the plugin distribution
-4. Open Claude Code settings and add the built plugin path: `/path/to/repo/dist/claude`
+After cloning, the source repo is no longer needed at runtime — the install
+script copies everything the plugin needs into `~/.claude/hs-sound-pack/`.
 
 ### Codex (OpenAI)
 
-Codex does not support local audio playback plugins. The sound files can be used manually with your preferred audio player, or consider using Claude Code for integrated sound notifications.
+Codex does not support local audio playback plugins. The sound files can be
+used manually with your preferred audio player, or consider using Claude Code
+for integrated sound notifications.
 
 ## Uninstall
 
-```bash
-claude plugin marketplace remove hs-sound-pack
 ```
+/plugin uninstall hearthstone-sounds@hs-sound-pack
+/plugin marketplace remove hs-sound-pack
+```
+
+Then remove the staged copy: `rm -rf ~/.claude/hs-sound-pack`.

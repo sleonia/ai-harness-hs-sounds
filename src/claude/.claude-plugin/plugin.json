@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "hearthstone-sounds",
+  "version": "1.0.0",
+  "description": "AI agent notifications from Hearthstone's golden era",
+  "author": {
+    "name": "sleonia"
+  },
+  "homepage": "https://github.com/sleonia/claude-code-hs-sounds",
+  "repository": "https://github.com/sleonia/claude-code-hs-sounds",
+  "license": "MIT",
+  "keywords": ["sounds", "notifications", "audio", "hearthstone"]
+}

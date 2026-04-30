@@ -1,9 +1,0 @@
-{
-  "name": "claudecode-hs-sounds",
-  "version": "0.0.0",
-  "description": "Play memorable Hearthstone sounds when Claude Code needs your attention",
-  "author": {
-    "name": "sleonia"
-  },
-  "keywords": ["sounds", "notifications", "audio", "hearthstone"]
-}
