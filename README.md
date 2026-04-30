@@ -39,3 +39,9 @@ Install from source if you prefer manual setup:
 ### Codex (OpenAI)
 
 Codex does not support local audio playback plugins. The sound files can be used manually with your preferred audio player, or consider using Claude Code for integrated sound notifications.
+
+## Uninstall
+
+```bash
+claude plugin marketplace remove hs-sound-pack
+```
