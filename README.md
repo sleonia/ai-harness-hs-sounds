@@ -58,8 +58,8 @@ for integrated sound notifications.
 ## Uninstall
 
 ```
-/plugin uninstall hearthstone-sounds@hs-sound-pack
-/plugin marketplace remove hs-sound-pack
+claude plugin uninstall hearthstone-sounds@hs-sound-pack
 ```
 
 Then remove the staged copy: `rm -rf ~/.claude/hs-sound-pack`.
+
