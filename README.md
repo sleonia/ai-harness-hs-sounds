@@ -19,7 +19,7 @@ I also took inspiration from this repo: https://github.com/newink/claudecode-sou
 ### Claude Code
 
 Clone the repository and run the install script. It builds a self-contained
-plugin and stages it under `~/.claude/hs-sound-pack/` as a local marketplace.
+plugin and stages it under `~/.claude/ai-harness-hs-sounds/` as a local marketplace.
 
 ```bash
 git clone https://github.com/sleonia/ai-harness-hs-sounds.git
@@ -31,8 +31,8 @@ Then, inside Claude Code, register the marketplace and install the plugin
 (one-time):
 
 ```
-claude marketplace add ~/.claude/hs-sound-pack
-claude install hearthstone-sounds@hs-sound-pack
+claude marketplace add ~/.claude/ai-harness-hs-sounds
+claude install hearthstone-sounds@ai-harness-hs-sounds
 
 # You can test it both ways:
 # 1. Run claude code and run the testing command and hear the sound
@@ -47,7 +47,7 @@ claude
 **Platform:** macOS only — playback uses the built-in `afplay` command.
 
 After cloning, the source repo is no longer needed at runtime — the install
-script copies everything the plugin needs into `~/.claude/hs-sound-pack/`.
+script copies everything the plugin needs into `~/.claude/ai-harness-hs-sounds/`.
 
 ### Codex (OpenAI)
 
@@ -58,10 +58,10 @@ for integrated sound notifications.
 ## Uninstall
 
 ```
-claude plugin uninstall hearthstone-sounds@hs-sound-pack
+claude plugin uninstall hearthstone-sounds@ai-harness-hs-sounds
 ```
 
-Then remove the staged copy: `rm -rf ~/.claude/hs-sound-pack`.
+Then remove the staged copy: `rm -rf ~/.claude/ai-harness-hs-sounds`.
 
 ## Development
 
