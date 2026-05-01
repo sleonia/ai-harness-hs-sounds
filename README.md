@@ -22,19 +22,13 @@ Clone the repository and run the install script. It builds a self-contained
 plugin and stages it under `~/.claude/ai-harness-hs-sounds/` as a local marketplace.
 
 ```bash
-git clone https://github.com/sleonia/ai-harness-hs-sounds.git
-cd ai-harness-hs-sounds
-./install.sh
+git clone https://github.com/sleonia/ai-harness-hs-sounds.git /tmp/ai-harness-hs-sounds
+cd /tmp/ai-harness-hs-sounds
+./install.sh # and proceed the steps
 ```
 
-Then, inside Claude Code, register the marketplace and install the plugin
-(one-time):
-
+You can test it both ways:
 ```
-claude marketplace add ~/.claude/ai-harness-hs-sounds
-claude install hearthstone-sounds@ai-harness-hs-sounds
-
-# You can test it both ways:
 # 1. Run claude code and run the testing command and hear the sound
 claude
 /play-sound
