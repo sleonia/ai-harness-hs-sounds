@@ -9,5 +9,12 @@
   "homepage": "https://github.com/sleonia/ai-harness-hs-sounds",
   "repository": "https://github.com/sleonia/ai-harness-hs-sounds",
   "license": "MIT",
-  "keywords": ["sounds", "notifications", "audio", "hearthstone"]
+  "keywords": [
+    "sounds",
+    "notifications",
+    "audio",
+    "hearthstone",
+    "ai-harness",
+    "ai-agent"
+  ]
 }
