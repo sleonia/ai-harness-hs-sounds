@@ -25,9 +25,13 @@ class SoundSelector {
 
   loadSounds(meta) {
     const allSounds = [];
+    this.audioToTitle = {};
     for (const pack of Object.values(meta.packs)) {
       for (const card of pack) {
-        allSounds.push(...card.audios);
+        for (const audio of card.audios) {
+          allSounds.push(audio);
+          this.audioToTitle[audio] = card.title;
+        }
       }
     }
     return allSounds;
@@ -36,7 +40,12 @@ class SoundSelector {
   getRandomSound() {
     if (this.sounds.length === 0) return null;
     const index = Math.floor(Math.random() * this.sounds.length);
-    return path.join(this.basePath, this.sounds[index]);
+    const relativePath = this.sounds[index];
+    return {
+      absolutePath: path.join(this.basePath, relativePath),
+      relativePath,
+      title: this.audioToTitle[relativePath] ?? null,
+    };
   }
 }
 
