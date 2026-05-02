@@ -24,6 +24,7 @@ jobs:
         working-directory: ./site
 
       - run: cp meta.json site/public/meta.json
+      - run: cp -r soundpack site/public/soundpack
 
       - run: npm run build
         working-directory: ./site
