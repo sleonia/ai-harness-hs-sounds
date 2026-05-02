@@ -8,7 +8,7 @@ function setButtonState(button: HTMLButtonElement, state: "idle" | "playing") {
   button.setAttribute("aria-pressed", state === "playing" ? "true" : "false");
   button.setAttribute(
     "aria-label",
-    `${state === "playing" ? "Pause" : "Play"} audio: ${title} - ${label}`,
+    `${state === "playing" ? "Пауза" : "Воспроизвести"} audio: ${title} - ${label}`,
   );
 }
 
@@ -26,8 +26,6 @@ function resetCurrent() {
 
 function playCard(button: HTMLButtonElement) {
   const clipPath = button.dataset.path!;
-  const title = button.dataset.title!;
-  const label = button.dataset.label!;
 
   if (currentButton === button && currentAudio && !currentAudio.paused) {
     resetCurrent();
