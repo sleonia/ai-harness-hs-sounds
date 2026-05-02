@@ -152,9 +152,9 @@
         "title": "Железный сенсей",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/1992",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_027.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Железный сенсей",
+        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Железный сенсей",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Железный сенсей/VO_GVG_027_Play_01_ALT.wav"
+          "soundpack/[2014.12.8] Гоблины и Гномы/Железный сенсей/VO_GVG_027_Play_01_ALT.wav"
         ]
       },
       {
@@ -179,10 +179,10 @@
         "title": "Защищенный мини-бот",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2026",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_058.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот",
+        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот/VO_GVG_058_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот/VO_GVG_058_Play_01.wav"
+          "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот/VO_GVG_058_Attack_02.wav",
+          "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот/VO_GVG_058_Play_01.wav"
         ]
       },
       {
@@ -359,20 +359,20 @@
         "title": "Святая защитница",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2555",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_011.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Святая защитница",
+        "fsPath": "soundpack/[2015.08.24] Большой турнир/Святая защитница",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Святая защитница/VO_AT_011_ATTACK_02.wav",
-          "soundpack/[2015.08.24] Большой турнир/Святая защитница/VO_AT_011_PLAY_01.wav"
+          "soundpack/[2015.08.24] Большой турнир/Святая защитница/VO_AT_011_ATTACK_02.wav",
+          "soundpack/[2015.08.24] Большой турнир/Святая защитница/VO_AT_011_PLAY_01.wav"
         ]
       },
       {
         "title": "Серебряный всадник",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2490",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_087.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Серебряный всадник",
+        "fsPath": "soundpack/[2015.08.24] Большой турнир/Серебряный всадник",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Серебряный всадник/VO_AT_087_ATTACK_04.wav",
-          "soundpack/[2015.08.24] Большой турнир/Серебряный всадник/VO_AT_087_PLAY_ALT1_02.wav"
+          "soundpack/[2015.08.24] Большой турнир/Серебряный всадник/VO_AT_087_ATTACK_04.wav",
+          "soundpack/[2015.08.24] Большой турнир/Серебряный всадник/VO_AT_087_PLAY_ALT1_02.wav"
         ]
       },
       {
