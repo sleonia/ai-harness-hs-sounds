@@ -198,10 +198,10 @@
         "title": "Кобальтовый страж",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2030",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_062.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж",
+        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж/VO_GVG_062_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж/VO_GVG_062_Play_01.wav"
+          "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж/VO_GVG_062_Attack_02.wav",
+          "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж/VO_GVG_062_Play_01.wav"
         ]
       },
       {
@@ -245,9 +245,9 @@
         "title": "Огненный левиафан",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/1939",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_007.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Огненный левиафан",
+        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Огненный левиафан",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Огненный левиафан/VO_GVG_007_Trigger_04.wav"
+          "soundpack/[2014.12.8] Гоблины и Гномы/Огненный левиафан/VO_GVG_007_Trigger_04.wav"
         ]
       },
       {
