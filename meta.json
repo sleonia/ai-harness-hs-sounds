@@ -28,8 +28,8 @@
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BG21_017.png",
         "fsPath": "soundpack/Пираты/Морской контрабандист",
         "audios": [
-          "soundpack/Пираты/Морской контрабандист/VO_BG21_017_Male_NightElf_Attack_01.wav",
-          "soundpack/Пираты/Морской контрабандист/VO_BG21_017_Male_NightElf_Play_01.wav"
+          "soundpack/Пираты/Морской контрабандист/VO_BG21_017_Male_NightElf_Attack_01.wav",
+          "soundpack/Пираты/Морской контрабандист/VO_BG21_017_Male_NightElf_Play_01.wav"
         ]
       },
       {
@@ -161,9 +161,9 @@
         "title": "Заводной гном",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2050",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_082.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Заводной гном",
+        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Заводной гном",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Заводной гном/VO_GVG_082_Play_01.wav"
+          "soundpack/[2014.12.8] Гоблины и Гномы/Заводной гном/VO_GVG_082_Play_01.wav"
         ]
       },
       {
@@ -805,9 +805,9 @@
         "title": "Темная чародейка",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38876",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_291.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Темная чародейка",
+        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Темная чародейка",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Темная чародейка/VO_OG_291_Female_Goblin_Play_01.wav"
+          "soundpack/[2016.04.27] Пробуждение древних богов/Темная чародейка/VO_OG_291_Female_Goblin_Play_01.wav"
         ]
       },
       {
@@ -825,9 +825,9 @@
         "title": "Оживший щит",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/39491-arcanosmith/",
         "imageUrl": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c300b182337f892d9fe66a5c0b6d3725d3f6ffe33be0cbdffeb24c1551457f5f.png",
-        "fsPath": "soundpack/[2016.08.11] Вечеринка в Каражане/Волшебный кузнец/Оживший щит",
+        "fsPath": "soundpack/[2016.08.11] Вечеринка в Каражане/Волшебный кузнец/Оживший щит",
         "audios": [
-          "soundpack/[2016.08.11] Вечеринка в Каражане/Волшебный кузнец/Оживший щит/VO_KAR_710m_Male_Shield_Play_01.wav"
+          "soundpack/[2016.08.11] Вечеринка в Каражане/Волшебный кузнец/Оживший щит/VO_KAR_710m_Male_Shield_Play_01.wav"
         ]
       },
       {
