@@ -28,13 +28,13 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
     <footer>
       <div class="footer-divider"></div>
       <div class="footer-content">
-        <span>made with
-        by </span>
-        <a href="https://github.com/sleonia/hs-sound-pack" class="repo-link">sleonia</a>
+        <span>made with by </span>
+        <a href="https://github.com/sleonia/hs-sound-pack" class="repo-link"
+          >sleonia</a
+        >
       </div>
     </footer>
-
-</body>
+  </body>
 </html>
 
 <style is:global>
@@ -111,13 +111,8 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     justify-items: center;
     gap: 12px;
+    gap: 40px 20px;
     padding: 0 4rem;
-  }
-
-  @media (min-width: 769px) {
-    .grid {
-      gap: 20px;
-    }
   }
 
   .visually-hidden {
@@ -132,12 +127,6 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
     white-space: nowrap;
   }
 
-  @media (min-width: 769px) {
-    .grid {
-      gap: 20px;
-    }
-  }
-
   @media (max-width: 768px) {
     .grid {
       padding: 0 1rem;
@@ -145,28 +134,27 @@ const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
   }
 
   .footer-divider {
+    margin: 2rem 0;
+    background: var(--hs-gold-secondary);
     width: 100%;
     height: 2px;
-    background: var(--hs-gold-secondary);
-    margin: 2rem 0;
   }
 
   .footer-content {
-    text-align: center;
     padding: 1rem 0;
     color: var(--hs-gold-secondary);
     font-family: "Benguiat Bold", Georgia, serif;
+    text-align: center;
   }
 
   .repo-link {
+    border-bottom: 1px solid var(--hs-gold-secondary);
     color: var(--hs-text-secondary);
     text-decoration: none;
-    border-bottom: 1px solid var(--hs-gold-secondary);
   }
 
   .repo-link:hover {
     border-color: var(--hs-gold-primary);
     color: var(--hs-gold-primary);
   }
-
 </style>

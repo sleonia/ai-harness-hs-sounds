@@ -407,7 +407,7 @@
       {
         "title": "Кел_Тузад",
         "blizzardUrl": "",
-        "imageUrl": "/cards/kelthuzad.webp",
+        "imageUrl": "cards/kelthuzad.webp",
         "fsPath": "soundpack/[2014.07.22] Проклятие Наксрамаса/1 Приключение/Кел_Тузад",
         "audios": [
           "soundpack/[2014.07.22] Проклятие Наксрамаса/1 Приключение/Кел_Тузад/VO_NAX15_01_RESPOND_GULDAN_22.wav"
@@ -681,7 +681,7 @@
       {
         "title": "Король-лич (карта)",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42818-the-lich-king",
-        "imageUrl": "/cards/the-lich-king.png",
+        "imageUrl": "cards/the-lich-king.png",
         "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)",
         "audios": [
           "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)/VO_ICC_239_Male_Human_Attack_03.wav"
@@ -745,7 +745,7 @@
       {
         "title": "Хозяин таверны",
         "blizzardUrl": "",
-        "imageUrl": "/innkeeper.webp",
+        "imageUrl": "innkeeper.webp",
         "fsPath": "soundpack/Хозяин таверны",
         "audios": [
           "soundpack/Хозяин таверны/VO_ANNOUNCER_LEGENDARY_25.wav",
