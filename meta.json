@@ -5,12 +5,12 @@
         "title": "Бармен Боб",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/117723",
         "imageUrl": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/64b324cdecacd4751a76dd03b4c346ec8a1343a2fb145ac00ecc8bec276777f2.png",
-        "fsPath": "soundpack/1 БОБ",
+        "fsPath": "soundpack/1_БОБ",
         "audios": [
-          "soundpack/1 БОБ/VO_DALA_BOSS_99h_Male_Human_AfterTriple_01.wav",
-          "soundpack/1 БОБ/VO_DALA_BOSS_99h_Male_Human_Behind_02.wav",
-          "soundpack/1 БОБ/VO_DALA_BOSS_99h_Male_Human_NewGame_01.wav",
-          "soundpack/1 БОБ/VO_DALA_BOSS_99h_Male_Human_Triple_02.wav"
+          "soundpack/1_БОБ/VO_DALA_BOSS_99h_Male_Human_AfterTriple_01.wav",
+          "soundpack/1_БОБ/VO_DALA_BOSS_99h_Male_Human_Behind_02.wav",
+          "soundpack/1_БОБ/VO_DALA_BOSS_99h_Male_Human_NewGame_01.wav",
+          "soundpack/1_БОБ/VO_DALA_BOSS_99h_Male_Human_Triple_02.wav"
         ]
       },
       {
@@ -26,19 +26,19 @@
         "title": "Морской контрабандист",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/72071",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BG21_017.png",
-        "fsPath": "soundpack/Пираты/Морской контрабандист",
+        "fsPath": "soundpack/Пираты/Морской_контрабандист",
         "audios": [
-          "soundpack/Пираты/Морской контрабандист/VO_BG21_017_Male_NightElf_Attack_01.wav",
-          "soundpack/Пираты/Морской контрабандист/VO_BG21_017_Male_NightElf_Play_01.wav"
+          "soundpack/Пираты/Морской_контрабандист/VO_BG21_017_Male_NightElf_Attack_01.wav",
+          "soundpack/Пираты/Морской_контрабандист/VO_BG21_017_Male_NightElf_Play_01.wav"
         ]
       },
       {
         "title": "Нат Пэгл, рыбак-экстремал",
         "blizzardUrl": "",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BGS_046.png",
-        "fsPath": "soundpack/Пираты/Нат Пэгл, рыбак-экстремал",
+        "fsPath": "soundpack/Пираты/Нат_Пэгл,_рыбак-экстремал",
         "audios": [
-          "soundpack/Пираты/Нат Пэгл, рыбак-экстремал/VO_BGS_046_Male_Human_Attack_01.wav"
+          "soundpack/Пираты/Нат_Пэгл,_рыбак-экстремал/VO_BGS_046_Male_Human_Attack_01.wav"
         ]
       }
     ],
@@ -47,235 +47,235 @@
         "title": "Бомбометатель",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2067-bomb-lobber/",
         "imageUrl": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2a9f96397aaf73bc0eb00548a0e8857e09b1645c4376668817f9f7fd09ac8e6.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Бомбометатель",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Бомбометатель",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Бомбометатель/VO_GVG_099_Attack_02.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Бомбометатель/VO_GVG_099_Attack_02.wav"
         ]
       },
       {
         "title": "Боевой робот",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2019",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_051.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Боевой робот",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Боевой_робот",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Боевой робот/VO_GVG_051_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Боевой_робот/VO_GVG_051_Play_01.wav"
         ]
       },
       {
         "title": "Ветролет",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2052",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_084.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Ветролет",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Ветролет",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Ветролет/VO_GVG_084_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Ветролет/VO_GVG_084_Play_01.wav"
         ]
       },
       {
         "title": "Газлоу",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2085",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_117.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Газлоу",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Газлоу",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Газлоу/VO_GVG_117_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Газлоу/VO_GVG_117_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Газлоу/VO_GVG_117_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Газлоу/VO_GVG_117_Play_01.wav"
         ]
       },
       {
         "title": "Гном-техник",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2070",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_102.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Гном-техник",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гном-техник",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Гном-техник/VO_GVG_102_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гном-техник/VO_GVG_102_Play_01.wav"
         ]
       },
       {
         "title": "Гном-экспериментатор",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2060",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_092.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Гном-экспериментатор",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гном-экспериментатор",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Гном-экспериментатор/VO_GVG_092_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Гном-экспериментатор/VO_GVG_092_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гном-экспериментатор/VO_GVG_092_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гном-экспериментатор/VO_GVG_092_Play_01.wav"
         ]
       },
       {
         "title": "Гоблин-взрывомаг",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/1934",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_004.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Гоблин-взрывомаг",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гоблин-взрывомаг",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Гоблин-взрывомаг/VO_GVG_004_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Гоблин-взрывомаг/VO_GVG_004_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гоблин-взрывомаг/VO_GVG_004_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гоблин-взрывомаг/VO_GVG_004_Play_01.wav"
         ]
       },
       {
         "title": "Гоблин-сапер",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2063",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_095.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Гоблин-сапер",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гоблин-сапер",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Гоблин-сапер/VO_GVG_095_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Гоблин-сапер/VO_GVG_095_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гоблин-сапер/VO_GVG_095_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Гоблин-сапер/VO_GVG_095_Play_01.wav"
         ]
       },
       {
         "title": "Грязевик",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2032",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_064.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Грязевик",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Грязевик",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Грязевик/SFX_GVG_064_EnterPlay.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Грязевик/SFX_GVG_064_EnterPlay.wav"
         ]
       },
       {
         "title": "Дживс",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2062",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_094.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Дживс",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Дживс",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Дживс/VO_GVG_094_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Дживс/VO_GVG_094_Play_01.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Дживс/VO_GVG_094_Trigger_03.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Дживс/VO_GVG_094_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Дживс/VO_GVG_094_Play_01.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Дживс/VO_GVG_094_Trigger_03.wav"
         ]
       },
       {
         "title": "Древний исцелятор",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2040",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_072.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Древний исцелятор",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Древний_исцелятор",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Древний исцелятор/VO_GVG_072_Attack_02.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Древний_исцелятор/VO_GVG_072_Attack_02.wav"
         ]
       },
       {
         "title": "Железный сенсей",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/1992",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_027.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Железный сенсей",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Железный_сенсей",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Железный сенсей/VO_GVG_027_Play_01_ALT.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Железный_сенсей/VO_GVG_027_Play_01_ALT.wav"
         ]
       },
       {
         "title": "Заводной гном",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2050",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_082.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Заводной гном",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Заводной_гном",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Заводной гном/VO_GVG_082_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Заводной_гном/VO_GVG_082_Play_01.wav"
         ]
       },
       {
         "title": "Защитница",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2021",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_053.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Защитница",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Защитница",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Защитница/VO_GVG_053_Attack_02.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Защитница/VO_GVG_053_Attack_02.wav"
         ]
       },
       {
         "title": "Защищенный мини-бот",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2026",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_058.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Защищенный_мини-бот",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот/VO_GVG_058_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Защищенный мини-бот/VO_GVG_058_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Защищенный_мини-бот/VO_GVG_058_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Защищенный_мини-бот/VO_GVG_058_Play_01.wav"
         ]
       },
       {
         "title": "Интендант",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2028",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_060.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Интендант",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Интендант",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Интендант/VO_GVG_060_Attack_02.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Интендант/VO_GVG_060_Attack_02.wav"
         ]
       },
       {
         "title": "Кобальтовый страж",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2030",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_062.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Кобальтовый_страж",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж/VO_GVG_062_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Кобальтовый страж/VO_GVG_062_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Кобальтовый_страж/VO_GVG_062_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Кобальтовый_страж/VO_GVG_062_Play_01.wav"
         ]
       },
       {
         "title": "Мастер шестеренок",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2037",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_069.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Мастер шестеренок",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Мастер_шестеренок",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Мастер шестеренок/VO_GVG_069_Attack_02.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Мастер шестеренок/VO_GVG_069_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Мастер_шестеренок/VO_GVG_069_Attack_02.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Мастер_шестеренок/VO_GVG_069_Play_01.wav"
         ]
       },
       {
         "title": "Механосборщик",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/1940",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_006.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Механосборщик",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Механосборщик",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Механосборщик/VO_GVG_006_Attack_02.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Механосборщик/VO_GVG_006_Attack_02.wav"
         ]
       },
       {
         "title": "Микроробот",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2071",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_103.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Микроробот",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Микроробот",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Микроробот/VO_GVG_103_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Микроробот/VO_GVG_103_Play_01.wav"
         ]
       },
       {
         "title": "Мурлок-духостранник",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2008",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_040.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Мурлок-духостранник",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Мурлок-духостранник",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Мурлок-духостранник/GVG_040_SiltfinSpiritwalker_EnterPlay.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Мурлок-духостранник/GVG_040_SiltfinSpiritwalker_EnterPlay.wav"
         ]
       },
       {
         "title": "Огненный левиафан",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/1939",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_007.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Огненный левиафан",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Огненный_левиафан",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Огненный левиафан/VO_GVG_007_Trigger_04.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Огненный_левиафан/VO_GVG_007_Trigger_04.wav"
         ]
       },
       {
         "title": "Просветительница",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2057",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_089.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Просветительница",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Просветительница",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Просветительница/VO_GVG_089_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Просветительница/VO_GVG_089_Play_01.wav"
         ]
       },
       {
         "title": "Раздражатор",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2053",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_085.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Раздражатор",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Раздражатор",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Раздражатор/VO_GVG_085_Attack_02_ALT.wav",
-          "soundpack/[2014.12.8] Гоблины и Гномы/Раздражатор/VO_GVG_085_Play_01.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Раздражатор/VO_GVG_085_Attack_02_ALT.wav",
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Раздражатор/VO_GVG_085_Play_01.wav"
         ]
       },
       {
         "title": "Хранительница рощи",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2225",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/GVG_032.png",
-        "fsPath": "soundpack/[2014.12.8] Гоблины и Гномы/Хранительница рощи",
+        "fsPath": "soundpack/[2014.12.8]_Гоблины_и_Гномы/Хранительница_рощи",
         "audios": [
-          "soundpack/[2014.12.8] Гоблины и Гномы/Хранительница рощи/VO_GVG_032_Attack_02.wav"
+          "soundpack/[2014.12.8]_Гоблины_и_Гномы/Хранительница_рощи/VO_GVG_032_Attack_02.wav"
         ]
       }
     ],
@@ -284,122 +284,122 @@
         "title": "Боец из Даларана",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2549",
         "imageUrl": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c48c7e203082de95a3d37f6fb21c44a2c6d965a135a15111945cfdd9f87868b.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Боец из Даларана",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Боец_из_Даларана",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Боец из Даларана/VO_AT_006_TRIGGER_04.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Боец_из_Даларана/VO_AT_006_TRIGGER_04.wav"
         ]
       },
       {
         "title": "Серебряный дозорный",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2505/",
         "imageUrl": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02cb33c2a6e6de6d286d966ee595bd9ae9a9c6de273a2ffb94f2be94c0fb4b10.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Серебряный дозорный",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Серебряный_дозорный",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Серебряный дозорный/VO_AT_109_ATTACK_02.wav",
-          "soundpack/[2015.08.24] Большой турнир/Серебряный дозорный/VO_AT_109_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Серебряный_дозорный/VO_AT_109_ATTACK_02.wav",
+          "soundpack/[2015.08.24]_Большой_турнир/Серебряный_дозорный/VO_AT_109_PLAY_01.wav"
         ]
       },
       {
         "title": "Великий бретер",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2507",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_112.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Великий бретер",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Великий_бретер",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Великий бретер/VO_AT_112_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Великий_бретер/VO_AT_112_PLAY_01.wav"
         ]
       },
       {
         "title": "Великий рыцарь",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2510",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_118.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Великий рыцарь",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Великий_рыцарь",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Великий рыцарь/VO_AT_118_ATTACK_02.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Великий_рыцарь/VO_AT_118_ATTACK_02.wav"
         ]
       },
       {
         "title": "Жонглер пламенем",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2580",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_094.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Жонглер пламенем",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Жонглер_пламенем",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Жонглер пламенем/VO_AT_094_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Жонглер_пламенем/VO_AT_094_PLAY_01.wav"
         ]
       },
       {
         "title": "Загадочный претендент",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2726",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_079.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Загадочный претендент",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Загадочный_претендент",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Загадочный претендент/VO_AT_079_ATTACK_02.wav",
-          "soundpack/[2015.08.24] Большой турнир/Загадочный претендент/VO_AT_079_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Загадочный_претендент/VO_AT_079_ATTACK_02.wav",
+          "soundpack/[2015.08.24]_Большой_турнир/Загадочный_претендент/VO_AT_079_PLAY_01.wav"
         ]
       },
       {
         "title": "Защитник Света",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2259",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_106.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Защитник Света",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Защитник_Света",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Защитник Света/VO_AT_106_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Защитник_Света/VO_AT_106_PLAY_01.wav"
         ]
       },
       {
         "title": "Злобный насмешник",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2752",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_114.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Злобный насмешник",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Злобный_насмешник",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Злобный насмешник/VO_AT_114_PLAY_01.wav",
-          "soundpack/[2015.08.24] Большой турнир/Злобный насмешник/VO_AT_114_PLAY_ALT1_02.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Злобный_насмешник/VO_AT_114_PLAY_01.wav",
+          "soundpack/[2015.08.24]_Большой_турнир/Злобный_насмешник/VO_AT_114_PLAY_ALT1_02.wav"
         ]
       },
       {
         "title": "Святая защитница",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2555",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_011.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Святая защитница",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Святая_защитница",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Святая защитница/VO_AT_011_ATTACK_02.wav",
-          "soundpack/[2015.08.24] Большой турнир/Святая защитница/VO_AT_011_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Святая_защитница/VO_AT_011_ATTACK_02.wav",
+          "soundpack/[2015.08.24]_Большой_турнир/Святая_защитница/VO_AT_011_PLAY_01.wav"
         ]
       },
       {
         "title": "Серебряный всадник",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2490",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_087.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Серебряный всадник",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Серебряный_всадник",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Серебряный всадник/VO_AT_087_ATTACK_04.wav",
-          "soundpack/[2015.08.24] Большой турнир/Серебряный всадник/VO_AT_087_PLAY_ALT1_02.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Серебряный_всадник/VO_AT_087_ATTACK_04.wav",
+          "soundpack/[2015.08.24]_Большой_турнир/Серебряный_всадник/VO_AT_087_PLAY_ALT1_02.wav"
         ]
       },
       {
         "title": "Скромный оруженосец",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2486",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_082.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Скромный оруженосец",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Скромный_оруженосец",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Скромный оруженосец/VO_AT_082_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Скромный_оруженосец/VO_AT_082_PLAY_01.wav"
         ]
       },
       {
         "title": "Сомнительный делец",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2768",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_032.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Сомнительный делец",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Сомнительный_делец",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Сомнительный делец/VO_AT_032_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Сомнительный_делец/VO_AT_032_PLAY_01.wav"
         ]
       },
       {
         "title": "Спарринг-партнер",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2733",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_069.png",
-        "fsPath": "soundpack/[2015.08.24] Большой турнир/Спарринг-партнер",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Спарринг-партнер",
         "audios": [
-          "soundpack/[2015.08.24] Большой турнир/Спарринг-партнер/VO_AT_069_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Спарринг-партнер/VO_AT_069_PLAY_01.wav"
         ]
       }
     ],
@@ -408,9 +408,9 @@
         "title": "Кел_Тузад",
         "blizzardUrl": "",
         "imageUrl": "cards/kelthuzad.webp",
-        "fsPath": "soundpack/[2014.07.22] Проклятие Наксрамаса/1 Приключение/Кел_Тузад",
+        "fsPath": "soundpack/[2014.07.22]_Проклятие_Наксрамаса/1_Приключение/Кел_Тузад",
         "audios": [
-          "soundpack/[2014.07.22] Проклятие Наксрамаса/1 Приключение/Кел_Тузад/VO_NAX15_01_RESPOND_GULDAN_22.wav"
+          "soundpack/[2014.07.22]_Проклятие_Наксрамаса/1_Приключение/Кел_Тузад/VO_NAX15_01_RESPOND_GULDAN_22.wav"
         ]
       }
     ],
@@ -419,9 +419,9 @@
         "title": "Нетерпеливая вестница Рока",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/72066",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BG21_007.png",
-        "fsPath": "soundpack/Нейтральные - Все/Нетерпеливая вестница Рока",
+        "fsPath": "soundpack/Нейтральные_-_Все/Нетерпеливая_вестница_Рока",
         "audios": [
-          "soundpack/Нейтральные - Все/Нетерпеливая вестница Рока/VO_BG21_007_Female_Human_Attack_01.wav"
+          "soundpack/Нейтральные_-_Все/Нетерпеливая_вестница_Рока/VO_BG21_007_Female_Human_Attack_01.wav"
         ]
       }
     ],
@@ -430,10 +430,10 @@
         "title": "Корсар Туманных Парусов",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/66854",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CS3_022.png",
-        "fsPath": "soundpack/Core Set/Корсар Туманных Парусов",
+        "fsPath": "soundpack/Core_Set/Корсар_Туманных_Парусов",
         "audios": [
-          "soundpack/Core Set/Корсар Туманных Парусов/VO_CS3_022_Male_KulTiranPirate_Attack_01.wav",
-          "soundpack/Core Set/Корсар Туманных Парусов/VO_CS3_022_Male_KulTiranPirate_Play_01.wav"
+          "soundpack/Core_Set/Корсар_Туманных_Парусов/VO_CS3_022_Male_KulTiranPirate_Attack_01.wav",
+          "soundpack/Core_Set/Корсар_Туманных_Парусов/VO_CS3_022_Male_KulTiranPirate_Play_01.wav"
         ]
       }
     ],
@@ -442,38 +442,38 @@
         "title": "Главарь банды бесов",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2288",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_006.png",
-        "fsPath": "soundpack/[2015.04.2] Черная гора/Главарь банды бесов",
+        "fsPath": "soundpack/[2015.04.2]_Черная_гора/Главарь_банды_бесов",
         "audios": [
-          "soundpack/[2015.04.2] Черная гора/Главарь банды бесов/VO_BRM_006_Attack_02.wav",
-          "soundpack/[2015.04.2] Черная гора/Главарь банды бесов/VO_BRM_006_Play_01.wav"
+          "soundpack/[2015.04.2]_Черная_гора/Главарь_банды_бесов/VO_BRM_006_Attack_02.wav",
+          "soundpack/[2015.04.2]_Черная_гора/Главарь_банды_бесов/VO_BRM_006_Play_01.wav"
         ]
       },
       {
         "title": "Метатель топоров",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2297",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_016.png",
-        "fsPath": "soundpack/[2015.04.2] Черная гора/Метатель топоров",
+        "fsPath": "soundpack/[2015.04.2]_Черная_гора/Метатель_топоров",
         "audios": [
-          "soundpack/[2015.04.2] Черная гора/Метатель топоров/VO_BRM_016_Play_01.wav"
+          "soundpack/[2015.04.2]_Черная_гора/Метатель_топоров/VO_BRM_016_Play_01.wav"
         ]
       },
       {
         "title": "Мрачный завсегдатай",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2279",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_019.png",
-        "fsPath": "soundpack/[2015.04.2] Черная гора/Мрачный завсегдатай",
+        "fsPath": "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай",
         "audios": [
-          "soundpack/[2015.04.2] Черная гора/Мрачный завсегдатай/VO_BRM_019_Attack_02.wav",
-          "soundpack/[2015.04.2] Черная гора/Мрачный завсегдатай/VO_BRM_019_Trigger_03.wav"
+          "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай/VO_BRM_019_Attack_02.wav",
+          "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай/VO_BRM_019_Trigger_03.wav"
         ]
       },
       {
         "title": "Техник Крыла Тьмы",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2408",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_033.png",
-        "fsPath": "soundpack/[2015.04.2] Черная гора/Техник Крыла Тьмы",
+        "fsPath": "soundpack/[2015.04.2]_Черная_гора/Техник_Крыла_Тьмы",
         "audios": [
-          "soundpack/[2015.04.2] Черная гора/Техник Крыла Тьмы/VO_BRM_033_Play_01.wav"
+          "soundpack/[2015.04.2]_Черная_гора/Техник_Крыла_Тьмы/VO_BRM_033_Play_01.wav"
         ]
       }
     ],
@@ -482,18 +482,18 @@
         "title": "Бранн Бронзобород",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2949",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/LOE_077.png",
-        "fsPath": "soundpack/[2015.11.12] Лига исследователей/Бранн Бронзобород",
+        "fsPath": "soundpack/[2015.11.12]_Лига_исследователей/Бранн_Бронзобород",
         "audios": [
-          "soundpack/[2015.11.12] Лига исследователей/Бранн Бронзобород/VO_LOE_077_Play_16.wav"
+          "soundpack/[2015.11.12]_Лига_исследователей/Бранн_Бронзобород/VO_LOE_077_Play_16.wav"
         ]
       },
       {
         "title": "Рено Джексон",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2883",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/LOE_011.png",
-        "fsPath": "soundpack/[2015.11.12] Лига исследователей/Рено Джексон",
+        "fsPath": "soundpack/[2015.11.12]_Лига_исследователей/Рено_Джексон",
         "audios": [
-          "soundpack/[2015.11.12] Лига исследователей/Рено Джексон/VO_LOE_011_Play_12.wav"
+          "soundpack/[2015.11.12]_Лига_исследователей/Рено_Джексон/VO_LOE_011_Play_12.wav"
         ]
       }
     ],
@@ -502,130 +502,130 @@
         "title": "«Бугай»-технарь",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40568",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_754.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/«Бугай»-технарь",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/«Бугай»-технарь",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/«Бугай»-технарь/VO_CFM_754_Male_Goblin_Attack_03.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/«Бугай»-технарь/VO_CFM_754_Male_Goblin_Attack_03.wav"
         ]
       },
       {
         "title": "Аукционист Вихлюн",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40605",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_807.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Аукционист Вихлюн",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Аукционист_Вихлюн",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Аукционист Вихлюн/VO_CFM_807_Male_Goblin_Play_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Аукционист_Вихлюн/VO_CFM_807_Male_Goblin_Play_01.wav"
         ]
       },
       {
         "title": "Бесстрашный репортер",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40741",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_851.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Бесстрашный репортер",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Бесстрашный_репортер",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Бесстрашный репортер/VO_CFM_851_Female_NightElf_Attack_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Бесстрашный_репортер/VO_CFM_851_Female_NightElf_Attack_01.wav"
         ]
       },
       {
         "title": "Громила из трущоб",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40469",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_639.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Громила из трущоб",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Громила_из_трущоб",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Громила из трущоб/VO_CFM_639_Male_Dwarf_Play_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Громила_из_трущоб/VO_CFM_639_Male_Dwarf_Play_01.wav"
         ]
       },
       {
         "title": "Грязная крыса",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/41567",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_790.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Грязная крыса",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Грязная_крыса",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Грязная крыса/VO_CFM_790_Male_Kobold_Attack_01.wav",
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Грязная крыса/VO_CFM_790_Male_Kobold_Play_03.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Грязная_крыса/VO_CFM_790_Male_Kobold_Attack_01.wav",
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Грязная_крыса/VO_CFM_790_Male_Kobold_Play_03.wav"
         ]
       },
       {
         "title": "Лепрогном из подворотни",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40492",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_646.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Лепрогном из подворотни",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Лепрогном_из_подворотни",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Лепрогном из подворотни/VO_CFM_646_Male_Gnome_Attack_02.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Лепрогном_из_подворотни/VO_CFM_646_Male_Gnome_Attack_02.wav"
         ]
       },
       {
         "title": "Мастерица микстур",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/41566",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_120.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Мастерица микстур",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Мастерица_микстур",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Мастерица микстур/VO_CFM_120_Female_Undead_Attack_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Мастерица_микстур/VO_CFM_120_Female_Undead_Attack_01.wav"
         ]
       },
       {
         "title": "Морской дьявол",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40691",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_699.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Морской_дьявол",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Attack_01(1).wav",
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Attack_01.wav",
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Play_01(1).wav",
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Морской дьявол/VO_CFM_699_Male_Murloc_Play_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Морской_дьявол/VO_CFM_699_Male_Murloc_Attack_01(1).wav",
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Морской_дьявол/VO_CFM_699_Male_Murloc_Attack_01.wav",
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Морской_дьявол/VO_CFM_699_Male_Murloc_Play_01(1).wav",
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Морской_дьявол/VO_CFM_699_Male_Murloc_Play_01.wav"
         ]
       },
       {
         "title": "Осведомитель из трущоб",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40474",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_321.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Осведомитель из трущоб",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Осведомитель_из_трущоб",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Осведомитель из трущоб/VO_CFM_321_Male_OrcAdolescent_Play_02.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Осведомитель_из_трущоб/VO_CFM_321_Male_OrcAdolescent_Play_02.wav"
         ]
       },
       {
         "title": "Прихвостень «Кабала»",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40299",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_066.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Прихвостень «Кабала»",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Прихвостень_«Кабала»",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Прихвостень «Кабала»/VO_CFM_066_Male_Goren_Attack_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Прихвостень_«Кабала»/VO_CFM_066_Male_Goren_Attack_01.wav"
         ]
       },
       {
         "title": "Радушный трактирщик",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40914",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_654.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Радушный трактирщик",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Радушный_трактирщик",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Радушный трактирщик/VO_CFM_654_Male_Tauren_Play_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Радушный_трактирщик/VO_CFM_654_Male_Tauren_Play_01.wav"
         ]
       },
       {
         "title": "Светская львица",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40949",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_659.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Светская львица",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Светская_львица",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Светская львица/VO_CFM_659_Female_Gnome_Attack_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Светская_львица/VO_CFM_659_Female_Gnome_Attack_01.wav"
         ]
       },
       {
         "title": "Уличный детектив",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40928",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_656.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Уличный детектив",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Уличный_детектив",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Уличный детектив/VO_CFM_656_Male_NightElf_Attack_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Уличный_детектив/VO_CFM_656_Male_NightElf_Attack_01.wav"
         ]
       },
       {
         "title": "Шипастый хряк",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40700",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_688.png",
-        "fsPath": "soundpack/[2016.12.1] Злачный город Прибамбасск/Шипастый хряк",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Шипастый_хряк",
         "audios": [
-          "soundpack/[2016.12.1] Злачный город Прибамбасск/Шипастый хряк/VO_CFM_688_Male_Quilboar_Attack_03.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Шипастый_хряк/VO_CFM_688_Male_Quilboar_Attack_03.wav"
         ]
       }
     ],
@@ -634,10 +634,10 @@
         "title": "Арканолог",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/41153",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/UNG_020.png",
-        "fsPath": "soundpack/[2017.04.6] Экспедиция в Ун’Горо/Арканолог",
+        "fsPath": "soundpack/[2017.04.6]_Экспедиция_в_Ун’Горо/Арканолог",
         "audios": [
-          "soundpack/[2017.04.6] Экспедиция в Ун’Горо/Арканолог/VO_UNG_020_Female_Gnome_Attack_01.wav",
-          "soundpack/[2017.04.6] Экспедиция в Ун’Горо/Арканолог/VO_UNG_020_Female_Gnome_Play_01.wav"
+          "soundpack/[2017.04.6]_Экспедиция_в_Ун’Горо/Арканолог/VO_UNG_020_Female_Gnome_Attack_01.wav",
+          "soundpack/[2017.04.6]_Экспедиция_в_Ун’Горо/Арканолог/VO_UNG_020_Female_Gnome_Play_01.wav"
         ]
       }
     ],
@@ -646,64 +646,64 @@
         "title": "Архиепископ Бенедикт",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42633",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_215.png",
-        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Архиепископ Бенедикт",
+        "fsPath": "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Архиепископ_Бенедикт",
         "audios": [
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Архиепископ Бенедикт/VO_ICC_215_Male_Human_Play_01.wav"
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Архиепископ_Бенедикт/VO_ICC_215_Male_Human_Play_01.wav"
         ]
       },
       {
         "title": "Вороватый дух",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/45975",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_910.png",
-        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Вороватый дух",
+        "fsPath": "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Вороватый_дух",
         "audios": [
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Вороватый дух/VO_ICC_910_Female_Banshee_Play_03.wav"
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Вороватый_дух/VO_ICC_910_Female_Banshee_Play_03.wav"
         ]
       },
       {
         "title": "Воскреситель мертвых",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42909",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_257.png",
-        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Воскреситель мертвых",
+        "fsPath": "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Воскреситель_мертвых",
         "audios": [
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Воскреситель мертвых/VO_ICC_257_Male_Ymirjar_Attack_01.wav"
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Воскреситель_мертвых/VO_ICC_257_Male_Ymirjar_Attack_01.wav"
         ]
       },
       {
         "title": "Гадкий натрезим",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42743",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_075.png",
-        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Гадкий натрезим",
+        "fsPath": "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Гадкий_натрезим",
         "audios": [
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Гадкий натрезим/VO_ICC_075_Male_Dreadlord_Play_01.wav"
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Гадкий_натрезим/VO_ICC_075_Male_Dreadlord_Play_01.wav"
         ]
       },
       {
         "title": "Король-лич (карта)",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42818-the-lich-king",
         "imageUrl": "cards/the-lich-king.png",
-        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)",
+        "fsPath": "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Король-лич_(карта)",
         "audios": [
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Король-лич (карта)/VO_ICC_239_Male_Human_Attack_03.wav"
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Король-лич_(карта)/VO_ICC_239_Male_Human_Attack_03.wav"
         ]
       },
       {
         "title": "Профессор Мерзоцид",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/42563",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/ICC_204.png",
-        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Профессор Мерзоцид",
+        "fsPath": "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Профессор_Мерзоцид",
         "audios": [
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Профессор Мерзоцид/VO_ICC_204_Male_Undead_Attack_02.wav",
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Профессор Мерзоцид/VO_ICC_204_Male_Undead_Trigger_01.wav"
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Профессор_Мерзоцид/VO_ICC_204_Male_Undead_Attack_02.wav",
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Профессор_Мерзоцид/VO_ICC_204_Male_Undead_Trigger_01.wav"
         ]
       },
       {
         "title": "Чародейка Драккари",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/45309-drakkari-enchanter/",
         "imageUrl": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f33165cd30413cc1a037fedd8da16fc34d391c59c448ce8467fb7e13882e764.png",
-        "fsPath": "soundpack/[2017.08.11] Рыцари Ледяного Трона/Чародейка Драккари",
+        "fsPath": "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Чародейка_Драккари",
         "audios": [
-          "soundpack/[2017.08.11] Рыцари Ледяного Трона/Чародейка Драккари/VO_ICC_029_Female_Troll_Attack_02.wav"
+          "soundpack/[2017.08.11]_Рыцари_Ледяного_Трона/Чародейка_Драккари/VO_ICC_029_Female_Troll_Attack_02.wav"
         ]
       }
     ],
@@ -712,23 +712,23 @@
         "title": "Джайна",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/heroes/mage",
         "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/bltc965041283bac56c/blt7bcb414d2e0e9fb8/5e4441b1af702f08b6a32821/Alt-Heroes_Mage_Jaina.png",
-        "fsPath": "soundpack/Книга Героев/Джайна",
+        "fsPath": "soundpack/Книга_Героев/Джайна",
         "audios": [
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Concede_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Generic_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Oops_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Time_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Wow_01.wav",
-          "soundpack/Книга Героев/Джайна/VO_Story_Hero_Jaina_Human_Female_Story_Jaina_Threaten_01.wav"
+          "soundpack/Книга_Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Concede_01.wav",
+          "soundpack/Книга_Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Error_Generic_01.wav",
+          "soundpack/Книга_Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Oops_01.wav",
+          "soundpack/Книга_Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Time_01.wav",
+          "soundpack/Книга_Героев/Джайна/VO_Story_Hero_Jaina_Female_Human_Wow_01.wav",
+          "soundpack/Книга_Героев/Джайна/VO_Story_Hero_Jaina_Human_Female_Story_Jaina_Threaten_01.wav"
         ]
       },
       {
         "title": "Рексар",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/heroes/hunter",
         "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/bltc965041283bac56c/bltacbbadff2af4490b/5e44413acc8de70b69efa73f/Alt-Heroes_Hunter_Rexxar.png",
-        "fsPath": "soundpack/Книга Героев/Рексар",
+        "fsPath": "soundpack/Книга_Героев/Рексар",
         "audios": [
-          "soundpack/Книга Героев/Рексар/VO_Story_Hero_Rexxar_Male_Orc-Ogre_Story_Rexxar_Attack_01.wav"
+          "soundpack/Книга_Героев/Рексар/VO_Story_Hero_Rexxar_Male_Orc-Ogre_Story_Rexxar_Attack_01.wav"
         ]
       }
     ],
@@ -738,7 +738,9 @@
         "blizzardUrl": "",
         "imageUrl": "https://d2q63o9r0h0ohi.cloudfront.net/images/card-gallery/cardgallery_empty_keyart-087e770b5f99c63fe84ae21c0c412d1b9c91c86ecd8f7635d7e1ec895b1f3f2eebc20fe12192522b2d991b34393b169e8c6780f0cc88387be0397ca75099e786.png",
         "fsPath": "soundpack/Разное",
-        "audios": ["soundpack/Разное/VO_JobsDone.wav"]
+        "audios": [
+          "soundpack/Разное/VO_JobsDone.wav"
+        ]
       }
     ],
     "Хозяин таверны": [
@@ -746,10 +748,10 @@
         "title": "Хозяин таверны",
         "blizzardUrl": "",
         "imageUrl": "innkeeper.webp",
-        "fsPath": "soundpack/Хозяин таверны",
+        "fsPath": "soundpack/Хозяин_таверны",
         "audios": [
-          "soundpack/Хозяин таверны/VO_ANNOUNCER_LEGENDARY_25.wav",
-          "soundpack/Хозяин таверны/VO_INNKEEPER_FORGE_2LOSS_25.wav"
+          "soundpack/Хозяин_таверны/VO_ANNOUNCER_LEGENDARY_25.wav",
+          "soundpack/Хозяин_таверны/VO_INNKEEPER_FORGE_2LOSS_25.wav"
         ]
       }
     ],
@@ -758,65 +760,65 @@
         "title": "Библиотекарь Темнолесья",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38447",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_109.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Библиотекарь Темнолесья",
+        "fsPath": "soundpack/[2016.04.27]_Пробуждение_древних_богов/Библиотекарь_Темнолесья",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Библиотекарь Темнолесья/VO_OG_109_Female_Human_Play_01.wav"
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Библиотекарь_Темнолесья/VO_OG_109_Female_Human_Play_01.wav"
         ]
       },
       {
         "title": "Колдунья-сектантка",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38900",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_303.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Колдунья-сектантка",
+        "fsPath": "soundpack/[2016.04.27]_Пробуждение_древних_богов/Колдунья-сектантка",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Колдунья-сектантка/VO_OG_303_Female_Human_Play_01.wav"
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Колдунья-сектантка/VO_OG_303_Female_Human_Play_01.wav"
         ]
       },
       {
         "title": "Сектант-убийца",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38391",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_070.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Сектант-убийца",
+        "fsPath": "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сектант-убийца",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Сектант-убийца/VO_OG_070_Male_Troll_Attack_01.wav"
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сектант-убийца/VO_OG_070_Male_Troll_Attack_01.wav"
         ]
       },
       {
         "title": "Сумеречный предок",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38868",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_286.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Сумеречный предок",
+        "fsPath": "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сумеречный_предок",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Сумеречный предок/VO_OG_286_Male_Gnome_Attack_01.wav",
-          "soundpack/[2016.04.27] Пробуждение древних богов/Сумеречный предок/VO_OG_286_Male_Gnome_Play_01.wav",
-          "soundpack/[2016.04.27] Пробуждение древних богов/Сумеречный предок/VO_OG_286_Male_Gnome_Trigger_01.wav"
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сумеречный_предок/VO_OG_286_Male_Gnome_Attack_01.wav",
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сумеречный_предок/VO_OG_286_Male_Gnome_Play_01.wav",
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сумеречный_предок/VO_OG_286_Male_Gnome_Trigger_01.wav"
         ]
       },
       {
         "title": "Сумеречный призыватель",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38833",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_272.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Сумеречный призыватель",
+        "fsPath": "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сумеречный_призыватель",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Сумеречный призыватель/VO_OG_272_Male_Troll_Play_01.wav"
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Сумеречный_призыватель/VO_OG_272_Male_Troll_Play_01.wav"
         ]
       },
       {
         "title": "Темная чародейка",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38876",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_291.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Темная чародейка",
+        "fsPath": "soundpack/[2016.04.27]_Пробуждение_древних_богов/Темная_чародейка",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Темная чародейка/VO_OG_291_Female_Goblin_Play_01.wav"
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Темная_чародейка/VO_OG_291_Female_Goblin_Play_01.wav"
         ]
       },
       {
         "title": "Храбрец Кровавого Копыта",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/38738",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/OG_218.png",
-        "fsPath": "soundpack/[2016.04.27] Пробуждение древних богов/Храбрец Кровавого Копыта",
+        "fsPath": "soundpack/[2016.04.27]_Пробуждение_древних_богов/Храбрец_Кровавого_Копыта",
         "audios": [
-          "soundpack/[2016.04.27] Пробуждение древних богов/Храбрец Кровавого Копыта/VO_OG_218_Male_Tauren_Attack_01.wav"
+          "soundpack/[2016.04.27]_Пробуждение_древних_богов/Храбрец_Кровавого_Копыта/VO_OG_218_Male_Tauren_Attack_01.wav"
         ]
       }
     ],
@@ -825,37 +827,37 @@
         "title": "Оживший щит",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/39491-arcanosmith/",
         "imageUrl": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c300b182337f892d9fe66a5c0b6d3725d3f6ffe33be0cbdffeb24c1551457f5f.png",
-        "fsPath": "soundpack/[2016.08.11] Вечеринка в Каражане/Волшебный кузнец/Оживший щит",
+        "fsPath": "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Волшебный_кузнец/Оживший_щит",
         "audios": [
-          "soundpack/[2016.08.11] Вечеринка в Каражане/Волшебный кузнец/Оживший щит/VO_KAR_710m_Male_Shield_Play_01.wav"
+          "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Волшебный_кузнец/Оживший_щит/VO_KAR_710m_Male_Shield_Play_01.wav"
         ]
       },
       {
         "title": "Историк Гнева Пустоты",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/39554",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/KAR_062.png",
-        "fsPath": "soundpack/[2016.08.11] Вечеринка в Каражане/Историк Гнева Пустоты",
+        "fsPath": "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Историк_Гнева_Пустоты",
         "audios": [
-          "soundpack/[2016.08.11] Вечеринка в Каражане/Историк Гнева Пустоты/VO_KAR_062_Female_Gnome_Attack_01.wav"
+          "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Историк_Гнева_Пустоты/VO_KAR_062_Female_Gnome_Attack_01.wav"
         ]
       },
       {
         "title": "Лакей Медива",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/39767",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/KAR_092.png",
-        "fsPath": "soundpack/[2016.08.11] Вечеринка в Каражане/Лакей Медива",
+        "fsPath": "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Лакей_Медива",
         "audios": [
-          "soundpack/[2016.08.11] Вечеринка в Каражане/Лакей Медива/VO_KAR_092_Male_Human_Attack_01.wav",
-          "soundpack/[2016.08.11] Вечеринка в Каражане/Лакей Медива/VO_KAR_092_Male_Human_Play_07.wav"
+          "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Лакей_Медива/VO_KAR_092_Male_Human_Attack_01.wav",
+          "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Лакей_Медива/VO_KAR_092_Male_Human_Play_07.wav"
         ]
       },
       {
         "title": "Мороуз",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/39453",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/KAR_044.png",
-        "fsPath": "soundpack/[2016.08.11] Вечеринка в Каражане/Мороуз",
+        "fsPath": "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Мороуз",
         "audios": [
-          "soundpack/[2016.08.11] Вечеринка в Каражане/Мороуз/VO_KAR_044_Male_Human_Attack_01.wav"
+          "soundpack/[2016.08.11]_Вечеринка_в_Каражане/Мороуз/VO_KAR_044_Male_Human_Attack_01.wav"
         ]
       }
     ]
