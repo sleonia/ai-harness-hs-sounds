@@ -4,14 +4,35 @@ import CardTile from "../components/CardTile.astro";
 import GridWrapper from "../components/GridWrapper.astro";
 import { cards, totalClips } from "../data/cards";
 
-const uniqueSets = Array.from(new Set(cards.map((card) => card.set))).sort();
+const siteUrl = "https://sleonia.github.io/ai-harness-hs-sounds/";
+const ogImageUrl = `${siteUrl}opengraph.jpg`;
+const metaTitle = "Hearthstone AI Harness Sound Pack";
+const metaDescription =
+  "Browse and play iconic Hearthstone voice lines and sound clips in one place.";
 ---
 
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI harness HS sounds</title>
+    <title>{metaTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0f0f0f" />
+    <link rel="canonical" href={siteUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hearthstone AI Harness Sound Pack" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content={metaTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={metaTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:url" content={siteUrl} />
+    <meta name="twitter:image" content={ogImageUrl} />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body class="shell">
