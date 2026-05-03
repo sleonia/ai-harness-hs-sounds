@@ -1,7 +1,5 @@
 let currentAudio: HTMLAudioElement | null = null;
 let currentButton: HTMLButtonElement | null = null;
-let currentCandidates: string[] = [];
-let currentCandidateIndex = 0;
 
 function setButtonState(button: HTMLButtonElement, state: "idle" | "playing") {
   const title = button.dataset.title ?? "";
@@ -24,15 +22,6 @@ function resetCurrent() {
   }
   currentAudio = null;
   currentButton = null;
-  currentCandidates = [];
-  currentCandidateIndex = 0;
-}
-
-function buildPathCandidates(path: string) {
-  // Retry Unicode normalization variants because repository filenames may be in
-  // NFD while metadata/path strings are NFC (or vice versa).
-  const candidates = [path, path.normalize("NFD"), path.normalize("NFC")];
-  return [...new Set(candidates)];
 }
 
 function playCard(button: HTMLButtonElement) {
@@ -44,10 +33,7 @@ function playCard(button: HTMLButtonElement) {
 
   resetCurrent();
 
-  currentCandidates = buildPathCandidates(clipPath);
-  currentCandidateIndex = 0;
-
-  const audio = new Audio(currentCandidates[currentCandidateIndex]);
+  const audio = new Audio(clipPath);
   currentAudio = audio;
   currentButton = button;
   setButtonState(button, "playing");
@@ -59,19 +45,9 @@ function playCard(button: HTMLButtonElement) {
   });
 
   audio.addEventListener("error", () => {
-    if (currentButton !== button || currentAudio !== audio) return;
-
-    currentCandidateIndex += 1;
-    if (currentCandidateIndex >= currentCandidates.length) {
+    if (currentButton === button) {
       resetCurrent();
-      return;
     }
-
-    audio.src = currentCandidates[currentCandidateIndex];
-    audio.load();
-    audio.play().catch(() => {
-      resetCurrent();
-    });
   });
 
   audio.play().catch(() => {

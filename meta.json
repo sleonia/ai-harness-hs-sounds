@@ -26,7 +26,7 @@
         "title": "Морской контрабандист",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/72071",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BG21_017.png",
-        "fsPath": "soundpack/Пираты/Морской_контрабандист",
+        "fsPath": "soundpack/Пираты/Морской_контрабандист",
         "audios": [
           "soundpack/Пираты/Морской_контрабандист/VO_BG21_017_Male_NightElf_Attack_01.wav",
           "soundpack/Пираты/Морской_контрабандист/VO_BG21_017_Male_NightElf_Play_01.wav"
@@ -379,27 +379,27 @@
         "title": "Скромный оруженосец",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2486",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_082.png",
-        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Скромный_оруженосец",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Скромный_оруженосец",
         "audios": [
-          "soundpack/[2015.08.24]_Большой_турнир/Скромный_оруженосец/VO_AT_082_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Скромный_оруженосец/VO_AT_082_PLAY_01.wav"
         ]
       },
       {
         "title": "Сомнительный делец",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2768",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_032.png",
-        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Сомнительный_делец",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Сомнительный_делец",
         "audios": [
-          "soundpack/[2015.08.24]_Большой_турнир/Сомнительный_делец/VO_AT_032_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Сомнительный_делец/VO_AT_032_PLAY_01.wav"
         ]
       },
       {
         "title": "Спарринг-партнер",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2733",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/AT_069.png",
-        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Спарринг-партнер",
+        "fsPath": "soundpack/[2015.08.24]_Большой_турнир/Спарринг-партнер",
         "audios": [
-          "soundpack/[2015.08.24]_Большой_турнир/Спарринг-партнер/VO_AT_069_PLAY_01.wav"
+          "soundpack/[2015.08.24]_Большой_турнир/Спарринг-партнер/VO_AT_069_PLAY_01.wav"
         ]
       }
     ],
@@ -419,9 +419,9 @@
         "title": "Нетерпеливая вестница Рока",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/72066",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BG21_007.png",
-        "fsPath": "soundpack/Нейтральные_-_Все/Нетерпеливая_вестница_Рока",
+        "fsPath": "soundpack/Нейтральные_-_Все/Нетерпеливая_вестница_Рока",
         "audios": [
-          "soundpack/Нейтральные_-_Все/Нетерпеливая_вестница_Рока/VO_BG21_007_Female_Human_Attack_01.wav"
+          "soundpack/Нейтральные_-_Все/Нетерпеливая_вестница_Рока/VO_BG21_007_Female_Human_Attack_01.wav"
         ]
       }
     ],
@@ -461,10 +461,10 @@
         "title": "Мрачный завсегдатай",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2279",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/BRM_019.png",
-        "fsPath": "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай",
+        "fsPath": "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай",
         "audios": [
-          "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай/VO_BRM_019_Attack_02.wav",
-          "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай/VO_BRM_019_Trigger_03.wav"
+          "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай/VO_BRM_019_Attack_02.wav",
+          "soundpack/[2015.04.2]_Черная_гора/Мрачный_завсегдатай/VO_BRM_019_Trigger_03.wav"
         ]
       },
       {
@@ -482,18 +482,18 @@
         "title": "Бранн Бронзобород",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2949",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/LOE_077.png",
-        "fsPath": "soundpack/[2015.11.12]_Лига_исследователей/Бранн_Бронзобород",
+        "fsPath": "soundpack/[2015.11.12]_Лига_исследователей/Бранн_Бронзобород",
         "audios": [
-          "soundpack/[2015.11.12]_Лига_исследователей/Бранн_Бронзобород/VO_LOE_077_Play_16.wav"
+          "soundpack/[2015.11.12]_Лига_исследователей/Бранн_Бронзобород/VO_LOE_077_Play_16.wav"
         ]
       },
       {
         "title": "Рено Джексон",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/2883",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/LOE_011.png",
-        "fsPath": "soundpack/[2015.11.12]_Лига_исследователей/Рено_Джексон",
+        "fsPath": "soundpack/[2015.11.12]_Лига_исследователей/Рено_Джексон",
         "audios": [
-          "soundpack/[2015.11.12]_Лига_исследователей/Рено_Джексон/VO_LOE_011_Play_12.wav"
+          "soundpack/[2015.11.12]_Лига_исследователей/Рено_Джексон/VO_LOE_011_Play_12.wav"
         ]
       }
     ],
@@ -502,9 +502,9 @@
         "title": "«Бугай»-технарь",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40568",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_754.png",
-        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/«Бугай»-технарь",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/«Бугай»-технарь",
         "audios": [
-          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/«Бугай»-технарь/VO_CFM_754_Male_Goblin_Attack_03.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/«Бугай»-технарь/VO_CFM_754_Male_Goblin_Attack_03.wav"
         ]
       },
       {
@@ -520,9 +520,9 @@
         "title": "Бесстрашный репортер",
         "blizzardUrl": "https://hearthstone.blizzard.com/ru-ru/cards/40741",
         "imageUrl": "https://art.hearthstonejson.com/v1/render/latest/ruRU/512x/CFM_851.png",
-        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Бесстрашный_репортер",
+        "fsPath": "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Бесстрашный_репортер",
         "audios": [
-          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Бесстрашный_репортер/VO_CFM_851_Female_NightElf_Attack_01.wav"
+          "soundpack/[2016.12.1]_Злачный_город_Прибамбасск/Бесстрашный_репортер/VO_CFM_851_Female_NightElf_Attack_01.wav"
         ]
       },
       {
